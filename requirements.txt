@@ -1,0 +1,8 @@
+# Python used: 3.12.13
+ultralytics>=8.3.0
+opencv-python>=4.10.0
+numpy>=1.26.0
+PyYAML>=6.0.0
+Pillow>=10.0.0
+ImageHash>=4.3.1
+tqdm>=4.66.0

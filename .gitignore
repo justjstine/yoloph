@@ -1,0 +1,53 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Large ML artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.torchscript
+
+# Training outputs and caches
+runs/
+wandb/
+mlruns/
+
+# Keep dataset metadata, ignore heavy image/label payloads by default
+Dataset/**/images/
+Dataset/**/labels/
+
+# Keep YAML and readme files under Dataset
+!Dataset/**/data.yaml
+!Dataset/**/README.dataset.txt
+!Dataset/**/README.roboflow.txt
+
+# Ignore common model result artifacts
+Model/**/weights/
+Model/**/results/
+Model/**/predictions/
+
+# Local notebooks and exports
+*.csv.bak
+*.zip
