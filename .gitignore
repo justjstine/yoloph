@@ -47,6 +47,7 @@ Dataset/**/labels/
 Model/**/weights/
 Model/**/results/
 Model/**/predictions/
+Model/Experimental Model/
 
 # Local notebooks and exports
 *.csv.bak
