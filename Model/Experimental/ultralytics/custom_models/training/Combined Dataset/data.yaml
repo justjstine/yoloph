@@ -1,0 +1,9 @@
+path: C:/Users/almad/Documents/GitHub/ultralytics/custom_models/training/Combined Dataset
+
+train: train/images
+val: val/images
+
+nc: 1
+
+names:
+  0: pothole
