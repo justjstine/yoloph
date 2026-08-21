@@ -1,0 +1,488 @@
+import os
+from PIL import Image
+import imagehash
+from datetime import datetime
+
+
+# ============================================================
+# DATASET FOLDERS
+# ============================================================
+
+# DATASET 1
+train1_folder = r"C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images"
+valid1_folder = r"C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images"
+
+# DATASET 2
+train2_folder = r"C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images"
+valid2_folder = r"C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images"
+
+
+# ============================================================
+# SETTINGS
+# ============================================================
+
+image_extensions = (
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".bmp",
+    ".webp"
+)
+
+# 0 = identical
+# 1-5 = very similar
+threshold = 5
+
+
+# ============================================================
+# DATASETS
+# ============================================================
+
+datasets = {
+    "DATASET 1 TRAIN": train1_folder,
+    "DATASET 1 VALID": valid1_folder,
+    "DATASET 2 TRAIN": train2_folder,
+    "DATASET 2 VALID": valid2_folder
+}
+
+
+# ============================================================
+# CREATE HASHES
+# ============================================================
+
+hashes = {}
+
+errors = []
+
+print("=" * 70)
+print("CREATING IMAGE HASHES")
+print("=" * 70)
+
+for dataset_name, folder in datasets.items():
+
+    hashes[dataset_name] = {}
+
+    print()
+    print(dataset_name)
+
+    if not os.path.exists(folder):
+
+        print("WARNING: Folder not found")
+        continue
+
+    for filename in os.listdir(folder):
+
+        if not filename.lower().endswith(image_extensions):
+            continue
+
+        path = os.path.join(
+            folder,
+            filename
+        )
+
+        try:
+
+            image = Image.open(path)
+
+            hashes[dataset_name][filename] = (
+                imagehash.phash(image)
+            )
+
+        except Exception as e:
+
+            errors.append(
+                f"{dataset_name} | {filename} | {e}"
+            )
+
+    print(
+        f"Images hashed: "
+        f"{len(hashes[dataset_name])}"
+    )
+
+
+# ============================================================
+# COMPARE TRAIN DATASETS AGAINST VALID DATASETS
+# ============================================================
+
+comparisons = [
+    ("DATASET 1 TRAIN", "DATASET 1 VALID"),
+    ("DATASET 1 TRAIN", "DATASET 2 VALID"),
+    ("DATASET 2 TRAIN", "DATASET 1 VALID"),
+    ("DATASET 2 TRAIN", "DATASET 2 VALID")
+]
+
+
+duplicate_pairs = []
+
+
+print()
+print("=" * 70)
+print("CHECKING TRAIN vs VALID")
+print("=" * 70)
+
+
+for train_name, valid_name in comparisons:
+
+    print()
+    print(
+        f"{train_name}  <-->  {valid_name}"
+    )
+
+    train_hashes = hashes.get(
+        train_name,
+        {}
+    )
+
+    valid_hashes = hashes.get(
+        valid_name,
+        {}
+    )
+
+    count = 0
+
+    for train_image, train_hash in train_hashes.items():
+
+        for valid_image, valid_hash in valid_hashes.items():
+
+            distance = train_hash - valid_hash
+
+            if distance <= threshold:
+
+                duplicate_pairs.append(
+                    (
+                        train_name,
+                        train_image,
+                        valid_name,
+                        valid_image,
+                        distance
+                    )
+                )
+
+                count += 1
+
+    print(
+        f"Matches found: {count}"
+    )
+
+
+# ============================================================
+# SORT
+# ============================================================
+
+duplicate_pairs.sort(
+    key=lambda x: x[4]
+)
+
+
+# ============================================================
+# UNIQUE VALID IMAGES
+# ============================================================
+
+unique_valid_images = set()
+
+for (
+    train_dataset,
+    train_image,
+    valid_dataset,
+    valid_image,
+    distance
+) in duplicate_pairs:
+
+    unique_valid_images.add(
+        (
+            valid_dataset,
+            valid_image
+        )
+    )
+
+
+# ============================================================
+# REPORT
+# ============================================================
+
+script_folder = os.path.dirname(
+    os.path.abspath(__file__)
+)
+
+report_path = os.path.join(
+    script_folder,
+    "two_dataset_duplicate_report.txt"
+)
+
+
+with open(
+    report_path,
+    "w",
+    encoding="utf-8"
+) as report:
+
+    report.write("=" * 70 + "\n")
+    report.write(
+        "TWO DATASET TRAIN vs VALID DUPLICATE REPORT\n"
+    )
+    report.write("=" * 70 + "\n\n")
+
+    report.write(
+        f"Date: "
+        f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
+    )
+
+
+    # --------------------------------------------------------
+    # DATASET INFORMATION
+    # --------------------------------------------------------
+
+    report.write(
+        "## DATASET FOLDERS\n\n"
+    )
+
+    for dataset_name, folder in datasets.items():
+
+        report.write(
+            f"{dataset_name}:\n"
+        )
+
+        report.write(
+            f"{folder}\n\n"
+        )
+
+
+    # --------------------------------------------------------
+    # RESULTS
+    # --------------------------------------------------------
+
+    report.write(
+        "## RESULTS\n\n"
+    )
+
+    report.write(
+        f"Total duplicate pairs: "
+        f"{len(duplicate_pairs)}\n"
+    )
+
+    report.write(
+        f"Unique VALID images involved: "
+        f"{len(unique_valid_images)}\n\n"
+    )
+
+
+    # --------------------------------------------------------
+    # DISTANCE GUIDE
+    # --------------------------------------------------------
+
+    report.write(
+        "## DISTANCE GUIDE\n\n"
+    )
+
+    report.write(
+        "0     = identical pHash\n"
+    )
+
+    report.write(
+        "1-5   = very similar\n"
+    )
+
+    report.write(
+        "6-10  = potentially similar\n"
+    )
+
+    report.write(
+        ">10   = generally different\n\n"
+    )
+
+
+    # --------------------------------------------------------
+    # DUPLICATE DETAILS
+    # --------------------------------------------------------
+
+    report.write(
+        "## DUPLICATE DETAILS\n\n"
+    )
+
+    for i, (
+        train_dataset,
+        train_image,
+        valid_dataset,
+        valid_image,
+        distance
+    ) in enumerate(
+        duplicate_pairs,
+        1
+    ):
+
+        train_path = os.path.abspath(
+            os.path.join(
+                datasets[train_dataset],
+                train_image
+            )
+        )
+
+        valid_path = os.path.abspath(
+            os.path.join(
+                datasets[valid_dataset],
+                valid_image
+            )
+        )
+
+        report.write(
+            f"[{i}]\n"
+        )
+
+        report.write(
+            f"Distance       : {distance}\n"
+        )
+
+        report.write(
+            f"TRAIN DATASET  : {train_dataset}\n"
+        )
+
+        report.write(
+            f"TRAIN IMAGE    : {train_image}\n"
+        )
+
+        report.write(
+            f"TRAIN PATH     :\n"
+            f"{train_path}\n"
+        )
+
+        report.write(
+            f"VALID DATASET  : {valid_dataset}\n"
+        )
+
+        report.write(
+            f"VALID IMAGE    : {valid_image}\n"
+        )
+
+        report.write(
+            f"VALID PATH     :\n"
+            f"{valid_path}\n"
+        )
+
+        report.write(
+            "-" * 60 + "\n"
+        )
+
+
+    # --------------------------------------------------------
+    # ERRORS
+    # --------------------------------------------------------
+
+    if errors:
+
+        report.write(
+            "\n## ERRORS\n\n"
+        )
+
+        for error in errors:
+
+            report.write(
+                error + "\n"
+            )
+
+
+    report.write(
+        "\n" + "=" * 70 + "\n"
+    )
+
+    report.write(
+        "END OF REPORT\n"
+    )
+
+    report.write(
+        "=" * 70 + "\n"
+    )
+
+
+# ============================================================
+# TERMINAL SUMMARY
+# ============================================================
+
+print()
+print("=" * 70)
+print("DUPLICATE CHECK COMPLETE")
+print("=" * 70)
+
+print()
+
+for dataset_name, folder in datasets.items():
+
+    print(
+        f"{dataset_name}: "
+        f"{len(hashes.get(dataset_name, {}))} images"
+    )
+
+print()
+
+print(
+    f"Duplicate pairs: "
+    f"{len(duplicate_pairs)}"
+)
+
+print(
+    f"Unique VALID images involved: "
+    f"{len(unique_valid_images)}"
+)
+
+print()
+
+print(
+    "Report saved to:"
+)
+
+print(
+    report_path
+)
+
+
+# ============================================================
+# PRINT CLICKABLE PATHS
+# ============================================================
+
+print()
+print("=" * 70)
+print("DUPLICATE IMAGE PATHS")
+print("=" * 70)
+
+for i, (
+    train_dataset,
+    train_image,
+    valid_dataset,
+    valid_image,
+    distance
+) in enumerate(
+    duplicate_pairs,
+    1
+):
+
+    train_path = os.path.abspath(
+        os.path.join(
+            datasets[train_dataset],
+            train_image
+        )
+    )
+
+    valid_path = os.path.abspath(
+        os.path.join(
+            datasets[valid_dataset],
+            valid_image
+        )
+    )
+
+    print()
+    print(
+        f"[{i}] Distance: {distance}"
+    )
+
+    print(
+        f"TRAIN: {train_path}"
+    )
+
+    print(
+        f"VALID: {valid_path}"
+    )
+
+
+print()
+print("=" * 70)
+print("CHECK COMPLETE")
+print("=" * 70)

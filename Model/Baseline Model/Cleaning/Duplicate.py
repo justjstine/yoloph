@@ -8,12 +8,12 @@ from tqdm import tqdm
 # ==========================================================
 
 # Dataset A (KEEP)
-DATASET_A_IMAGES = "C:\\Users\\almad\\Desktop\\Thesis\\Dataset\\Segementation\\Kaggle 2\\dataset\\train\\images"
-DATASET_A_LABELS = "C:\\Users\\almad\\Desktop\\Thesis\\Dataset\\Segementation\\Kaggle 2\\dataset\\train\\labels"
+DATASET_A_IMAGES = "C:\\Users\\almad\\OneDrive\\Desktop\\Thesis\\Kaggle\\dataset\\val\\images"
+DATASET_A_LABELS = "C:\\Users\\almad\\OneDrive\\Desktop\\Thesis\\Kaggle\\dataset\\val\\labels"
 
 # Dataset B (REMOVE DUPLICATES FROM HERE)
-DATASET_B_IMAGES = "C:\\Users\\almad\\Desktop\\Thesis\\Dataset\\Segementation\\Kaggle\\Pothole_Segmentation_YOLOv8\\train\\images"
-DATASET_B_LABELS = "C:\\Users\\almad\\Desktop\\Thesis\\Dataset\\Segementation\\Kaggle\\Pothole_Segmentation_YOLOv8\\train\\labels"
+DATASET_B_IMAGES = "C:\\Users\\almad\\OneDrive\\Desktop\\Thesis\\Roboflow COCO_YOLOv8_Seg\\test\\images"
+DATASET_B_LABELS = "C:\\Users\\almad\\OneDrive\\Desktop\\Thesis\\Roboflow COCO_YOLOv8_Seg\\test\\labels"
 
 # Duplicate threshold
 # 0 = exact duplicate only

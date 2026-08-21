@@ -1,29 +1,32 @@
 import os
 
-# Path to your labels folder
-labels_folder = r"C:\Users\almad\Desktop\Thesis\Dataset\Segementation\Combined Dataset\train\labels"
+labels_folder = r"C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Thesis Potholes 2.yolov8\train\labels"
+images_folder = r"C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Thesis Potholes 2.yolov8\train\images"
 
-total_labels = 0
-non_potholes = 0
-potholes = 0
-missing_labels = 0
+extensions = [".jpg", ".jpeg", ".png"]
 
-# Supported image extensions (optional if you also want to compare with images)
+non_pothole_images = []
+
 for file in os.listdir(labels_folder):
-    if file.endswith(".txt"):
-        total_labels += 1
-        label_path = os.path.join(labels_folder, file)
+    if not file.endswith(".txt"):
+        continue
 
-        with open(label_path, "r") as f:
-            content = f.read().strip()
+    label_path = os.path.join(labels_folder, file)
 
-        if content == "":
-            non_potholes += 1
-        else:
-            potholes += 1
+    with open(label_path, "r") as f:
+        content = f.read().strip()
 
-print("=" * 40)
-print(f"Total Label Files : {total_labels}")
-print(f"Pothole Images    : {potholes}")
-print(f"Non-Pothole Images: {non_potholes}")
-print("=" * 40)
+    if content == "":
+        base = os.path.splitext(file)[0]
+
+        for ext in extensions:
+            image_path = os.path.join(images_folder, base + ext)
+            if os.path.exists(image_path):
+                non_pothole_images.append(image_path)
+                break
+
+print(f"Total Non-Pothole Images: {len(non_pothole_images)}")
+print("-" * 50)
+
+for image in non_pothole_images:
+    print(image)

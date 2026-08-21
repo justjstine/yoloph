@@ -9,7 +9,7 @@ from typing import Iterable
 
 
 DEFAULT_SOURCE_DIR = Path(
-    r"C:\Users\almad\Desktop\Thesis\Model\Baseline Model\Roboflow 2"
+    r"C:\Users\almad\OneDrive\Desktop\Thesis\Roboflow COCO"
 )
 DEFAULT_OUTPUT_DIR = DEFAULT_SOURCE_DIR.parent / f"{DEFAULT_SOURCE_DIR.name}_YOLOv8_Seg"
 SPLITS = ("train", "valid", "test")

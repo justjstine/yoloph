@@ -1,0 +1,8 @@
+Duplicate Removal Report
+========================
+
+Threshold: 5
+
+254_jpg.rf.d241b3209f8bdb1eee20281cc29e05ac.jpg --> duplicate of image1811.jpg (distance=0)
+46_jpg.rf.1c4868cf4f1d1117890763d5127f0ab8.jpg --> duplicate of image1785.jpg (distance=2)
+50_jpg.rf.67917ad630a640162031b83e4ea00d6f.jpg --> duplicate of image1680.jpg (distance=0)

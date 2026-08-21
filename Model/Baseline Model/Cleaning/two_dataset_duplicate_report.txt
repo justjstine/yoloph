@@ -1,0 +1,1380 @@
+======================================================================
+TWO DATASET TRAIN vs VALID DUPLICATE REPORT
+======================================================================
+
+Date: 2026-08-08 19:02:51
+
+## DATASET FOLDERS
+
+DATASET 1 TRAIN:
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images
+
+DATASET 1 VALID:
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images
+
+DATASET 2 TRAIN:
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images
+
+DATASET 2 VALID:
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images
+
+## RESULTS
+
+Total duplicate pairs: 122
+Unique VALID images involved: 116
+
+## DISTANCE GUIDE
+
+0     = identical pHash
+1-5   = very similar
+6-10  = potentially similar
+>10   = generally different
+
+## DUPLICATE DETAILS
+
+[1]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image543.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image543.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1602.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1602.jpg
+------------------------------------------------------------
+[2]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image105.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image105.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 299_jpg.rf.c1dbf12d123ac3a969d96d4af6b3d8b1.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\299_jpg.rf.c1dbf12d123ac3a969d96d4af6b3d8b1.jpg
+------------------------------------------------------------
+[3]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1085.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1085.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 56_jpg.rf.0ac912873e3d70020e53bb0d360e9429.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\56_jpg.rf.0ac912873e3d70020e53bb0d360e9429.jpg
+------------------------------------------------------------
+[4]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1096.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1096.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 200_jpg.rf.9debc1214c682cf1d6bb7b8e8b1b3714.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\200_jpg.rf.9debc1214c682cf1d6bb7b8e8b1b3714.jpg
+------------------------------------------------------------
+[5]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image110.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image110.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 292_jpg.rf.ba6ab29951530a8329b0d7d473377105.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\292_jpg.rf.ba6ab29951530a8329b0d7d473377105.jpg
+------------------------------------------------------------
+[6]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1130.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1130.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 12_jpg.rf.965e95147d35a5b1ef4846dd6b37fd5a.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\12_jpg.rf.965e95147d35a5b1ef4846dd6b37fd5a.jpg
+------------------------------------------------------------
+[7]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1145.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1145.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 64_jpg.rf.ec8f94882bb854c42df9919d62679604.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\64_jpg.rf.ec8f94882bb854c42df9919d62679604.jpg
+------------------------------------------------------------
+[8]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image116.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image116.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 192_jpg.rf.8c7e70a47ce4c29367355d398d8d3dd3.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\192_jpg.rf.8c7e70a47ce4c29367355d398d8d3dd3.jpg
+------------------------------------------------------------
+[9]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1177.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1177.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 321_jpg.rf.0baa273ee2e9ba8f9ab151742a380a29.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\321_jpg.rf.0baa273ee2e9ba8f9ab151742a380a29.jpg
+------------------------------------------------------------
+[10]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image124.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image124.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 305_jpg.rf.c4faa7a227827b0d6c18515d291508ee.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\305_jpg.rf.c4faa7a227827b0d6c18515d291508ee.jpg
+------------------------------------------------------------
+[11]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1241.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1241.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 231_jpg.rf.3be92c274d3b33ca354fa750fd545293.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\231_jpg.rf.3be92c274d3b33ca354fa750fd545293.jpg
+------------------------------------------------------------
+[12]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1260.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1260.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 212_jpg.rf.865dfe704a6a8a570583704f5678fdd1.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\212_jpg.rf.865dfe704a6a8a570583704f5678fdd1.jpg
+------------------------------------------------------------
+[13]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1262.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1262.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 115_jpg.rf.70f6cd4d8b720abab19aad8f326d7212.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\115_jpg.rf.70f6cd4d8b720abab19aad8f326d7212.jpg
+------------------------------------------------------------
+[14]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1263.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1263.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 316_jpg.rf.9a03a13394a8c4bbee8d8924d72bf9f7.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\316_jpg.rf.9a03a13394a8c4bbee8d8924d72bf9f7.jpg
+------------------------------------------------------------
+[15]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1267.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1267.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 226_jpg.rf.8511fb5b5ee2cf1dcf4668a093171bf0.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\226_jpg.rf.8511fb5b5ee2cf1dcf4668a093171bf0.jpg
+------------------------------------------------------------
+[16]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1269.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1269.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 158_jpg.rf.cd10cb2a6735f5127bdaf5091f6cd602.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\158_jpg.rf.cd10cb2a6735f5127bdaf5091f6cd602.jpg
+------------------------------------------------------------
+[17]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image129.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image129.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 278_jpg.rf.d49258d7aa0c309520ad5ed5cb230e78.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\278_jpg.rf.d49258d7aa0c309520ad5ed5cb230e78.jpg
+------------------------------------------------------------
+[18]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1344.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1344.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 59_jpg.rf.24c1b9873c31609d6faf895dd5a30d5f.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\59_jpg.rf.24c1b9873c31609d6faf895dd5a30d5f.jpg
+------------------------------------------------------------
+[19]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1349.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1349.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 281_jpg.rf.b6e8d8c83a0864c4ce2c69d3f53a827c.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\281_jpg.rf.b6e8d8c83a0864c4ce2c69d3f53a827c.jpg
+------------------------------------------------------------
+[20]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1367.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1367.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 180_jpg.rf.4af1d8e2810cf0a74630601c714f8fdf.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\180_jpg.rf.4af1d8e2810cf0a74630601c714f8fdf.jpg
+------------------------------------------------------------
+[21]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1380.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1380.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 71_jpg.rf.40049fda96dce04b69d0c3ef8e578a8e.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\71_jpg.rf.40049fda96dce04b69d0c3ef8e578a8e.jpg
+------------------------------------------------------------
+[22]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1381.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1381.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 213_jpg.rf.246790b974833a521bb4e55790492123.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\213_jpg.rf.246790b974833a521bb4e55790492123.jpg
+------------------------------------------------------------
+[23]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1389.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1389.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 21_jpg.rf.758be77e10611ed83141becc03fc6908.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\21_jpg.rf.758be77e10611ed83141becc03fc6908.jpg
+------------------------------------------------------------
+[24]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1411.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1411.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 201_jpg.rf.30902c1f5cf76410205d694df2aad023.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\201_jpg.rf.30902c1f5cf76410205d694df2aad023.jpg
+------------------------------------------------------------
+[25]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1423.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1423.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 106_jpg.rf.279e2571cd093c9f0920fb4fab057a12.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\106_jpg.rf.279e2571cd093c9f0920fb4fab057a12.jpg
+------------------------------------------------------------
+[26]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1434.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1434.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 192_jpg.rf.8c7e70a47ce4c29367355d398d8d3dd3.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\192_jpg.rf.8c7e70a47ce4c29367355d398d8d3dd3.jpg
+------------------------------------------------------------
+[27]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1453.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1453.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 214_jpg.rf.f81a96a75849c952f5a4d39c167e850b.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\214_jpg.rf.f81a96a75849c952f5a4d39c167e850b.jpg
+------------------------------------------------------------
+[28]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1460.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1460.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 111_jpg.rf.02f1905a2bc5f3a36e6b2e9b4c2788a7.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\111_jpg.rf.02f1905a2bc5f3a36e6b2e9b4c2788a7.jpg
+------------------------------------------------------------
+[29]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1463.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1463.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 76_jpg.rf.3f898ef4b82fb02178cfca30ebca8fe0.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\76_jpg.rf.3f898ef4b82fb02178cfca30ebca8fe0.jpg
+------------------------------------------------------------
+[30]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image147.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image147.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 229_jpg.rf.9fd41a42f603374671b039f2bba0fae2.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\229_jpg.rf.9fd41a42f603374671b039f2bba0fae2.jpg
+------------------------------------------------------------
+[31]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1498.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1498.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 272_jpg.rf.f0fe48cf57b1908c65d83e2834eaef78.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\272_jpg.rf.f0fe48cf57b1908c65d83e2834eaef78.jpg
+------------------------------------------------------------
+[32]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1500.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1500.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 305_jpg.rf.0f6e1865670bbe6b0b6e7120284063ce.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\305_jpg.rf.0f6e1865670bbe6b0b6e7120284063ce.jpg
+------------------------------------------------------------
+[33]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1514.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1514.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 194_jpg.rf.4e0ce19810710852e8f33dd9309fd626.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\194_jpg.rf.4e0ce19810710852e8f33dd9309fd626.jpg
+------------------------------------------------------------
+[34]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1549.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1549.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 120_jpg.rf.aa8968530962a6b6b815abe4073e41c6.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\120_jpg.rf.aa8968530962a6b6b815abe4073e41c6.jpg
+------------------------------------------------------------
+[35]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1556.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1556.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 17_jpg.rf.c2ade520913796d379850ce5afbe964e.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\17_jpg.rf.c2ade520913796d379850ce5afbe964e.jpg
+------------------------------------------------------------
+[36]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1582.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1582.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 94_jpg.rf.fa4ef2a99173d709131211643c4fdb1d.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\94_jpg.rf.fa4ef2a99173d709131211643c4fdb1d.jpg
+------------------------------------------------------------
+[37]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1591.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1591.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 163_jpg.rf.f76182e31e6030a6526173c585fbafbd.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\163_jpg.rf.f76182e31e6030a6526173c585fbafbd.jpg
+------------------------------------------------------------
+[38]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image189.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image189.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 337_jpg.rf.cca80b1cfc7211eabc7b27696873ce44.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\337_jpg.rf.cca80b1cfc7211eabc7b27696873ce44.jpg
+------------------------------------------------------------
+[39]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image222.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image222.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 118_jpg.rf.1fb9f5e0ea5f1599ca1908e6971e34cc.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\118_jpg.rf.1fb9f5e0ea5f1599ca1908e6971e34cc.jpg
+------------------------------------------------------------
+[40]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image223.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image223.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 295_jpg.rf.a4682c924252ea95614f1d3ed69ae3bb.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\295_jpg.rf.a4682c924252ea95614f1d3ed69ae3bb.jpg
+------------------------------------------------------------
+[41]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image234.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image234.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 236_jpg.rf.248481bc151b4bb5532fc86647534ec5.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\236_jpg.rf.248481bc151b4bb5532fc86647534ec5.jpg
+------------------------------------------------------------
+[42]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image263.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image263.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 291_jpg.rf.2675cdda0d7d03489c8958dad8b982ff.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\291_jpg.rf.2675cdda0d7d03489c8958dad8b982ff.jpg
+------------------------------------------------------------
+[43]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image28.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image28.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 257_jpg.rf.348de1ffbe8656825b9d3196740a820d.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\257_jpg.rf.348de1ffbe8656825b9d3196740a820d.jpg
+------------------------------------------------------------
+[44]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image303.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image303.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 175_jpg.rf.b1780897feb1a1a57249f1727d83b1ef.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\175_jpg.rf.b1780897feb1a1a57249f1727d83b1ef.jpg
+------------------------------------------------------------
+[45]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image31.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image31.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 194_jpg.rf.72d93526e3d7da5c1c54dc231f259f5b.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\194_jpg.rf.72d93526e3d7da5c1c54dc231f259f5b.jpg
+------------------------------------------------------------
+[46]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image323.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image323.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 332_jpg.rf.ea50a7787ce7d4d2d335ae4ca95cfbd6.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\332_jpg.rf.ea50a7787ce7d4d2d335ae4ca95cfbd6.jpg
+------------------------------------------------------------
+[47]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image328.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image328.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 314_jpg.rf.6770a1f01d84eaade90cd25731270bea.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\314_jpg.rf.6770a1f01d84eaade90cd25731270bea.jpg
+------------------------------------------------------------
+[48]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image334.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image334.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 45_jpg.rf.83eaa11f76fc91d29aa737b2fb2abd65.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\45_jpg.rf.83eaa11f76fc91d29aa737b2fb2abd65.jpg
+------------------------------------------------------------
+[49]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image349.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image349.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 115_jpg.rf.70f6cd4d8b720abab19aad8f326d7212.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\115_jpg.rf.70f6cd4d8b720abab19aad8f326d7212.jpg
+------------------------------------------------------------
+[50]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image35.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image35.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 240_jpg.rf.3102e8c3b8f0bb2b5be481722901e734.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\240_jpg.rf.3102e8c3b8f0bb2b5be481722901e734.jpg
+------------------------------------------------------------
+[51]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image386.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image386.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 230_jpg.rf.68c2e900fa6d54828b1beae46d249c56.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\230_jpg.rf.68c2e900fa6d54828b1beae46d249c56.jpg
+------------------------------------------------------------
+[52]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image39.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image39.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 290_jpg.rf.70420de21a6d22f628995676d7a93a03.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\290_jpg.rf.70420de21a6d22f628995676d7a93a03.jpg
+------------------------------------------------------------
+[53]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image41.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image41.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 121_jpg.rf.e2617645ce5a3e716b02f84c1b2a399c.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\121_jpg.rf.e2617645ce5a3e716b02f84c1b2a399c.jpg
+------------------------------------------------------------
+[54]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image474.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image474.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 241_jpg.rf.c5fd5e798468363d00b62f7a216d5b11.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\241_jpg.rf.c5fd5e798468363d00b62f7a216d5b11.jpg
+------------------------------------------------------------
+[55]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image488.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image488.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 297_jpg.rf.66ea01ed2e5c412b433f4342927bda30.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\297_jpg.rf.66ea01ed2e5c412b433f4342927bda30.jpg
+------------------------------------------------------------
+[56]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image499.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image499.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 330_jpg.rf.cbc49fe83ff0895817fe5102ddfeab71.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\330_jpg.rf.cbc49fe83ff0895817fe5102ddfeab71.jpg
+------------------------------------------------------------
+[57]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image513.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image513.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 28_jpg.rf.c72137be98cf11223ae31e58e69559a9.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\28_jpg.rf.c72137be98cf11223ae31e58e69559a9.jpg
+------------------------------------------------------------
+[58]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image527.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image527.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 27_jpg.rf.b1d379c708988cd4c879e50b561c1d7a.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\27_jpg.rf.b1d379c708988cd4c879e50b561c1d7a.jpg
+------------------------------------------------------------
+[59]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image537.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image537.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 197_jpg.rf.71c78c2cf951bc7ebafe23cc05028693.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\197_jpg.rf.71c78c2cf951bc7ebafe23cc05028693.jpg
+------------------------------------------------------------
+[60]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image629.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image629.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 52_jpg.rf.6aadc391eb89c17531ed4c3add308dc0.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\52_jpg.rf.6aadc391eb89c17531ed4c3add308dc0.jpg
+------------------------------------------------------------
+[61]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image63.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image63.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 144_jpg.rf.970ed7336812b4df4b359aff41f84ef3.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\144_jpg.rf.970ed7336812b4df4b359aff41f84ef3.jpg
+------------------------------------------------------------
+[62]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image651.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image651.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 22_jpg.rf.5b5f75cef471c13fc3653812d47b3b04.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\22_jpg.rf.5b5f75cef471c13fc3653812d47b3b04.jpg
+------------------------------------------------------------
+[63]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image657.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image657.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 179_jpg.rf.44fd1c79738983b6d911ea98841da417.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\179_jpg.rf.44fd1c79738983b6d911ea98841da417.jpg
+------------------------------------------------------------
+[64]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image667.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image667.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 159_jpg.rf.cddc61e1a35c1ea915fd5a6ec5f97d97.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\159_jpg.rf.cddc61e1a35c1ea915fd5a6ec5f97d97.jpg
+------------------------------------------------------------
+[65]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image700.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image700.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 76_jpg.rf.3f898ef4b82fb02178cfca30ebca8fe0.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\76_jpg.rf.3f898ef4b82fb02178cfca30ebca8fe0.jpg
+------------------------------------------------------------
+[66]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image702.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image702.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 210_jpg.rf.2abb682865313f46d543f406f1bcc4fc.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\210_jpg.rf.2abb682865313f46d543f406f1bcc4fc.jpg
+------------------------------------------------------------
+[67]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image708.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image708.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 284_jpg.rf.a4165e9a281b6c9d748cfa0bc3850772.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\284_jpg.rf.a4165e9a281b6c9d748cfa0bc3850772.jpg
+------------------------------------------------------------
+[68]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image749.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image749.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 290_jpg.rf.70420de21a6d22f628995676d7a93a03.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\290_jpg.rf.70420de21a6d22f628995676d7a93a03.jpg
+------------------------------------------------------------
+[69]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image757.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image757.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 344_jpg.rf.b8331c73a6229b16cd21ce9f625a7fa0.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\344_jpg.rf.b8331c73a6229b16cd21ce9f625a7fa0.jpg
+------------------------------------------------------------
+[70]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image784.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image784.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 245_jpg.rf.cab79ff3622a8fb49baf9ae000caf9c1.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\245_jpg.rf.cab79ff3622a8fb49baf9ae000caf9c1.jpg
+------------------------------------------------------------
+[71]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image79.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image79.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 154_jpg.rf.76fe098e482d1aaf2ebd8dca2d52e2b9.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\154_jpg.rf.76fe098e482d1aaf2ebd8dca2d52e2b9.jpg
+------------------------------------------------------------
+[72]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image796.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image796.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 79_jpg.rf.9097eee5089c605560d0ade387bb0f3d.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\79_jpg.rf.9097eee5089c605560d0ade387bb0f3d.jpg
+------------------------------------------------------------
+[73]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image843.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image843.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 168_jpg.rf.b60b5203fa9f8e2c1735ebf25e7e4d53.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\168_jpg.rf.b60b5203fa9f8e2c1735ebf25e7e4d53.jpg
+------------------------------------------------------------
+[74]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image900.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image900.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 218_jpg.rf.bdcc75a2b0374fa9b5bbb496e3bb43ad.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\218_jpg.rf.bdcc75a2b0374fa9b5bbb496e3bb43ad.jpg
+------------------------------------------------------------
+[75]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image911.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image911.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 103_jpg.rf.6ce6f9c8e59c2c7765f6a625a944c05b.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\103_jpg.rf.6ce6f9c8e59c2c7765f6a625a944c05b.jpg
+------------------------------------------------------------
+[76]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image928.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image928.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 41_jpg.rf.c23a1ebd3dbb680229f47596f9aa3337.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\41_jpg.rf.c23a1ebd3dbb680229f47596f9aa3337.jpg
+------------------------------------------------------------
+[77]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image942.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image942.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 125_jpg.rf.41f51c75df66681f13a38321407507b0.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\125_jpg.rf.41f51c75df66681f13a38321407507b0.jpg
+------------------------------------------------------------
+[78]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image951.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image951.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 76_jpg.rf.3f898ef4b82fb02178cfca30ebca8fe0.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\76_jpg.rf.3f898ef4b82fb02178cfca30ebca8fe0.jpg
+------------------------------------------------------------
+[79]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image956.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image956.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 182_jpg.rf.1f48ab8b03c3603bfa36bdc0b6fda549.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\182_jpg.rf.1f48ab8b03c3603bfa36bdc0b6fda549.jpg
+------------------------------------------------------------
+[80]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image962.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image962.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 15_jpg.rf.704139ba21ea3c261a65c287387e665c.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\15_jpg.rf.704139ba21ea3c261a65c287387e665c.jpg
+------------------------------------------------------------
+[81]
+Distance       : 0
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image979.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image979.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 274_jpg.rf.525c81f914aa39801ac8a338847ac7e1.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\274_jpg.rf.525c81f914aa39801ac8a338847ac7e1.jpg
+------------------------------------------------------------
+[82]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 105_jpg.rf.468c65d3b9075219b0ca71b2ef4e278c.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\105_jpg.rf.468c65d3b9075219b0ca71b2ef4e278c.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1723.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1723.jpg
+------------------------------------------------------------
+[83]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 105_jpg.rf.b998c2064388282e410d514495709730.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\105_jpg.rf.b998c2064388282e410d514495709730.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1798.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1798.jpg
+------------------------------------------------------------
+[84]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 108_jpg.rf.89213f38d97ce421468e5aaf74fa3339.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\108_jpg.rf.89213f38d97ce421468e5aaf74fa3339.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1699.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1699.jpg
+------------------------------------------------------------
+[85]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 131_jpg.rf.718c240c8dd1cb87c5b90a9a7ee20553.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\131_jpg.rf.718c240c8dd1cb87c5b90a9a7ee20553.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1625.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1625.jpg
+------------------------------------------------------------
+[86]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 14_jpg.rf.de0cd547e741107fcf2e3ccdaf59d3cb.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\14_jpg.rf.de0cd547e741107fcf2e3ccdaf59d3cb.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1882.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1882.jpg
+------------------------------------------------------------
+[87]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 160_jpg.rf.4ab07b574a012f5412f7ca4000aaf2df.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\160_jpg.rf.4ab07b574a012f5412f7ca4000aaf2df.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1644.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1644.jpg
+------------------------------------------------------------
+[88]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 175_jpg.rf.da455f7100253d6d5b37867c6395a86a.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\175_jpg.rf.da455f7100253d6d5b37867c6395a86a.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1711.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1711.jpg
+------------------------------------------------------------
+[89]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 192_jpg.rf.d64b3ab6e25c8225405a4c566596d932.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\192_jpg.rf.d64b3ab6e25c8225405a4c566596d932.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1729.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1729.jpg
+------------------------------------------------------------
+[90]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 196_jpg.rf.b20643b29e68a3ebf251a12ef77a8996.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\196_jpg.rf.b20643b29e68a3ebf251a12ef77a8996.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1752.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1752.jpg
+------------------------------------------------------------
+[91]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 222_jpg.rf.8472fd37c688d4e8383a91c7952d1967.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\222_jpg.rf.8472fd37c688d4e8383a91c7952d1967.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1736.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1736.jpg
+------------------------------------------------------------
+[92]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 227_jpg.rf.a061a3ea7a6a1c172ae1694d6c89954f.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\227_jpg.rf.a061a3ea7a6a1c172ae1694d6c89954f.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1806.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1806.jpg
+------------------------------------------------------------
+[93]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 229_jpg.rf.cac877cf7a5f99e17963df902bd09dd2.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\229_jpg.rf.cac877cf7a5f99e17963df902bd09dd2.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1603.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1603.jpg
+------------------------------------------------------------
+[94]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 232_jpg.rf.c1b978f37c7fa51fcbbcc480f4fee953.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\232_jpg.rf.c1b978f37c7fa51fcbbcc480f4fee953.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1735.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1735.jpg
+------------------------------------------------------------
+[95]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 233_jpg.rf.ff73c27a3821d646a9f8ee9b893eee99.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\233_jpg.rf.ff73c27a3821d646a9f8ee9b893eee99.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1958.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1958.jpg
+------------------------------------------------------------
+[96]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 23_jpg.rf.3d7afd39a9e7d1465fb69483e82196e7.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\23_jpg.rf.3d7afd39a9e7d1465fb69483e82196e7.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1632.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1632.jpg
+------------------------------------------------------------
+[97]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 251_jpg.rf.b5f4041e2cf2987ab5d82c4ba0d1c10e.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\251_jpg.rf.b5f4041e2cf2987ab5d82c4ba0d1c10e.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1772.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1772.jpg
+------------------------------------------------------------
+[98]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 253_jpg.rf.f5c708bfe670eadd8281bbcd4386f8ca.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\253_jpg.rf.f5c708bfe670eadd8281bbcd4386f8ca.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1627.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1627.jpg
+------------------------------------------------------------
+[99]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 267_jpg.rf.11e24a01aba297d068ab3e50bbf0c351.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\267_jpg.rf.11e24a01aba297d068ab3e50bbf0c351.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1764.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1764.jpg
+------------------------------------------------------------
+[100]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 282_jpg.rf.ce223808ebf2aa969a91c1b7afaf4429.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\282_jpg.rf.ce223808ebf2aa969a91c1b7afaf4429.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1975.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1975.jpg
+------------------------------------------------------------
+[101]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 289_jpg.rf.13e798578552f80d6eae0a99570e5798.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\289_jpg.rf.13e798578552f80d6eae0a99570e5798.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1829.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1829.jpg
+------------------------------------------------------------
+[102]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 289_jpg.rf.154301a9137c5ec9d224db5158dd05ad.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\289_jpg.rf.154301a9137c5ec9d224db5158dd05ad.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1861.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1861.jpg
+------------------------------------------------------------
+[103]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 306_jpg.rf.8180749e4109de82678eb997a878df10.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\306_jpg.rf.8180749e4109de82678eb997a878df10.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1617.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1617.jpg
+------------------------------------------------------------
+[104]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 319_jpg.rf.8e7c136d69a5e73c30de1b8009601659.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\319_jpg.rf.8e7c136d69a5e73c30de1b8009601659.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1792.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1792.jpg
+------------------------------------------------------------
+[105]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 323_jpg.rf.7d857d74164711614196f97e74831bd1.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\323_jpg.rf.7d857d74164711614196f97e74831bd1.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1719.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1719.jpg
+------------------------------------------------------------
+[106]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 329_jpg.rf.83b2b4fc4576c35c53b2f6a8d100c947.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\329_jpg.rf.83b2b4fc4576c35c53b2f6a8d100c947.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1850.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1850.jpg
+------------------------------------------------------------
+[107]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 335_jpg.rf.94900e35e2d2e235206886888fda43e1.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\335_jpg.rf.94900e35e2d2e235206886888fda43e1.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1685.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1685.jpg
+------------------------------------------------------------
+[108]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 342_jpg.rf.67d8fb5bef02ec724966a68f0cb03b6d.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\342_jpg.rf.67d8fb5bef02ec724966a68f0cb03b6d.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1799.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1799.jpg
+------------------------------------------------------------
+[109]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 44_jpg.rf.b5401c4c55435c6a0a9f12a4b59fe031.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\44_jpg.rf.b5401c4c55435c6a0a9f12a4b59fe031.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1887.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1887.jpg
+------------------------------------------------------------
+[110]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 49_jpg.rf.6305bedb8743f20cf7d687e2a9e14e52.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\49_jpg.rf.6305bedb8743f20cf7d687e2a9e14e52.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1913.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1913.jpg
+------------------------------------------------------------
+[111]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 63_jpg.rf.6faeb821934d661757b11c2de765e34c.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\63_jpg.rf.6faeb821934d661757b11c2de765e34c.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1657.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1657.jpg
+------------------------------------------------------------
+[112]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 81_jpg.rf.60a728d4ae6afddd0d4c38a1405dbb38.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\81_jpg.rf.60a728d4ae6afddd0d4c38a1405dbb38.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1746.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1746.jpg
+------------------------------------------------------------
+[113]
+Distance       : 0
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 84_jpg.rf.49cbf388139e55a3f5741466849bf93c.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\84_jpg.rf.49cbf388139e55a3f5741466849bf93c.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1613.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1613.jpg
+------------------------------------------------------------
+[114]
+Distance       : 2
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1023.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1023.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 343_jpg.rf.3e3e3d089f76828f3ebace9fd60f9eaa.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\343_jpg.rf.3e3e3d089f76828f3ebace9fd60f9eaa.jpg
+------------------------------------------------------------
+[115]
+Distance       : 2
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1094.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1094.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 42_jpg.rf.7b5640fd46b6b4d3e8c69abf20ac270b.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\42_jpg.rf.7b5640fd46b6b4d3e8c69abf20ac270b.jpg
+------------------------------------------------------------
+[116]
+Distance       : 2
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image191.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image191.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 153_jpg.rf.5e9993604c5df903000e664e9c4e0b8b.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\153_jpg.rf.5e9993604c5df903000e664e9c4e0b8b.jpg
+------------------------------------------------------------
+[117]
+Distance       : 2
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image490.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image490.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 205_jpg.rf.8ccb98b20e783836eb9cdde30ba816ca.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\205_jpg.rf.8ccb98b20e783836eb9cdde30ba816ca.jpg
+------------------------------------------------------------
+[118]
+Distance       : 2
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image528.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image528.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 175_jpg.rf.b1780897feb1a1a57249f1727d83b1ef.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\175_jpg.rf.b1780897feb1a1a57249f1727d83b1ef.jpg
+------------------------------------------------------------
+[119]
+Distance       : 2
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image701.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image701.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 16_jpg.rf.0ed606a9449da779e465a30b1ed5b35c.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\16_jpg.rf.0ed606a9449da779e465a30b1ed5b35c.jpg
+------------------------------------------------------------
+[120]
+Distance       : 2
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 196_jpg.rf.6aa5d5847091b1e298a539dd3b3a69dc.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\196_jpg.rf.6aa5d5847091b1e298a539dd3b3a69dc.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1875.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1875.jpg
+------------------------------------------------------------
+[121]
+Distance       : 2
+TRAIN DATASET  : DATASET 2 TRAIN
+TRAIN IMAGE    : 286_jpg.rf.437e9f9e6fb7d52cc390d77b09272f3a.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\train\images\286_jpg.rf.437e9f9e6fb7d52cc390d77b09272f3a.jpg
+VALID DATASET  : DATASET 1 VALID
+VALID IMAGE    : image1834.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\val\images\image1834.jpg
+------------------------------------------------------------
+[122]
+Distance       : 4
+TRAIN DATASET  : DATASET 1 TRAIN
+TRAIN IMAGE    : image1393.jpg
+TRAIN PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Kaggle\train\images\image1393.jpg
+VALID DATASET  : DATASET 2 VALID
+VALID IMAGE    : 322_jpg.rf.00d24cda93a105e4dd1f545a2a4d2513.jpg
+VALID PATH     :
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\Roboflow COCO_YOLOv8_Seg\val\images\322_jpg.rf.00d24cda93a105e4dd1f545a2a4d2513.jpg
+------------------------------------------------------------
+
+======================================================================
+END OF REPORT
+======================================================================

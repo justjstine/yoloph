@@ -1,0 +1,2253 @@
+======================================================================
+DATASET DUPLICATE CHECK REPORT
+======================================================================
+
+Date: 2026-08-08 20:27:29
+
+## DATASET
+
+Train:
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images
+
+Valid:
+C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\val\images
+
+Train images checked: 2571
+Valid images checked: 349
+Threshold: 5
+
+## RESULTS
+
+TRAIN ↔ TRAIN duplicates: 367
+VALID ↔ VALID duplicates: 0
+TRAIN ↔ VALID duplicates: 0
+
+## DISTANCE GUIDE
+
+0     = identical pHash
+1-5   = very similar; manually inspect
+6-10  = potentially similar
+>10   = generally different
+
+============================================================
+TRAIN ↔ TRAIN DUPLICATES
+============================================================
+
+[1] Distance: 0
+IMAGE 1: 1017_png_jpg.rf.i13EtZlVz49ULGuDa3Uu.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1017_png_jpg.rf.i13EtZlVz49ULGuDa3Uu.jpg
+IMAGE 2: 549_png_jpg.rf.yH61T24yuHaDpnOcKfZZ.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\549_png_jpg.rf.yH61T24yuHaDpnOcKfZZ.jpg
+------------------------------------------------------------
+[2] Distance: 0
+IMAGE 1: 102851537-GettyImages-465172040-1_jpg.rf.BZEjwPhLiXqdoFI4trq7.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\102851537-GettyImages-465172040-1_jpg.rf.BZEjwPhLiXqdoFI4trq7.jpg
+IMAGE 2: 102851537-GettyImages-465172040-1_jpg.rf.XphsCHPTj2ICgwZieKco.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\102851537-GettyImages-465172040-1_jpg.rf.XphsCHPTj2ICgwZieKco.jpg
+------------------------------------------------------------
+[3] Distance: 0
+IMAGE 1: 102851537-GettyImages-465172040-1_jpg.rf.BZEjwPhLiXqdoFI4trq7.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\102851537-GettyImages-465172040-1_jpg.rf.BZEjwPhLiXqdoFI4trq7.jpg
+IMAGE 2: image1461.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1461.jpg
+------------------------------------------------------------
+[4] Distance: 0
+IMAGE 1: 102851537-GettyImages-465172040-1_jpg.rf.BZEjwPhLiXqdoFI4trq7.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\102851537-GettyImages-465172040-1_jpg.rf.BZEjwPhLiXqdoFI4trq7.jpg
+IMAGE 2: image225.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image225.jpg
+------------------------------------------------------------
+[5] Distance: 0
+IMAGE 1: 102851537-GettyImages-465172040-1_jpg.rf.XphsCHPTj2ICgwZieKco.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\102851537-GettyImages-465172040-1_jpg.rf.XphsCHPTj2ICgwZieKco.jpg
+IMAGE 2: image1461.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1461.jpg
+------------------------------------------------------------
+[6] Distance: 0
+IMAGE 1: 102851537-GettyImages-465172040-1_jpg.rf.XphsCHPTj2ICgwZieKco.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\102851537-GettyImages-465172040-1_jpg.rf.XphsCHPTj2ICgwZieKco.jpg
+IMAGE 2: image225.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image225.jpg
+------------------------------------------------------------
+[7] Distance: 0
+IMAGE 1: 150_jpg.rf.3b4a8874ab5e15736c5ef7f8d349c337.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\150_jpg.rf.3b4a8874ab5e15736c5ef7f8d349c337.jpg
+IMAGE 2: pothole-in-road_jpeg.rf.3jCnadA5YCN9uQS4tGr3.jpeg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\pothole-in-road_jpeg.rf.3jCnadA5YCN9uQS4tGr3.jpeg
+------------------------------------------------------------
+[8] Distance: 0
+IMAGE 1: 396_png_jpg.rf.vl3VOhatIwI7dK6EHHlC.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\396_png_jpg.rf.vl3VOhatIwI7dK6EHHlC.jpg
+IMAGE 2: 397_png_jpg.rf.cHWL9oF66uKPiBQ8TKyz.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\397_png_jpg.rf.cHWL9oF66uKPiBQ8TKyz.jpg
+------------------------------------------------------------
+[9] Distance: 0
+IMAGE 1: 441_png_jpg.rf.bmxymzT8quoMlcb0oQXU.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\441_png_jpg.rf.bmxymzT8quoMlcb0oQXU.jpg
+IMAGE 2: 441_png_jpg.rf.szKrRwzHo2iefD408rY9.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\441_png_jpg.rf.szKrRwzHo2iefD408rY9.jpg
+------------------------------------------------------------
+[10] Distance: 0
+IMAGE 1: close-up-big-pothole-with-dirty-rain-water-road_127089-5185_jpg.rf.OSZDPmQQlIVIH07P10lC.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\close-up-big-pothole-with-dirty-rain-water-road_127089-5185_jpg.rf.OSZDPmQQlIVIH07P10lC.jpg
+IMAGE 2: close-up-big-pothole-with-dirty-rain-water-road_127089-5185_jpg.rf.wZiweloSe2vVGMD6ehDP.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\close-up-big-pothole-with-dirty-rain-water-road_127089-5185_jpg.rf.wZiweloSe2vVGMD6ehDP.jpg
+------------------------------------------------------------
+[11] Distance: 0
+IMAGE 1: image1000.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1000.jpg
+IMAGE 2: image1056.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1056.jpg
+------------------------------------------------------------
+[12] Distance: 0
+IMAGE 1: image1091.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1091.jpg
+IMAGE 2: image316.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image316.jpg
+------------------------------------------------------------
+[13] Distance: 0
+IMAGE 1: image1091.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1091.jpg
+IMAGE 2: image338.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image338.jpg
+------------------------------------------------------------
+[14] Distance: 0
+IMAGE 1: image1372.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1372.jpg
+IMAGE 2: image1573.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1573.jpg
+------------------------------------------------------------
+[15] Distance: 0
+IMAGE 1: image1461.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1461.jpg
+IMAGE 2: image225.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image225.jpg
+------------------------------------------------------------
+[16] Distance: 0
+IMAGE 1: image1463.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1463.jpg
+IMAGE 2: image700.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image700.jpg
+------------------------------------------------------------
+[17] Distance: 0
+IMAGE 1: image1534.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1534.jpg
+IMAGE 2: image53.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image53.jpg
+------------------------------------------------------------
+[18] Distance: 0
+IMAGE 1: image196.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image196.jpg
+IMAGE 2: image390.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image390.jpg
+------------------------------------------------------------
+[19] Distance: 0
+IMAGE 1: image21_jpeg.rf.wmv7sfMyus09rCEfgbUr.jpeg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image21_jpeg.rf.wmv7sfMyus09rCEfgbUr.jpeg
+IMAGE 2: image271.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image271.jpg
+------------------------------------------------------------
+[20] Distance: 0
+IMAGE 1: image291.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image291.jpg
+IMAGE 2: images173_jpg.rf.kBmZ01cVy7wUIKD2BAFE.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images173_jpg.rf.kBmZ01cVy7wUIKD2BAFE.jpg
+------------------------------------------------------------
+[21] Distance: 0
+IMAGE 1: image316.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image316.jpg
+IMAGE 2: image338.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image338.jpg
+------------------------------------------------------------
+[22] Distance: 0
+IMAGE 1: image662.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image662.jpg
+IMAGE 2: image71.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image71.jpg
+------------------------------------------------------------
+[23] Distance: 0
+IMAGE 1: image662.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image662.jpg
+IMAGE 2: image787.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image787.jpg
+------------------------------------------------------------
+[24] Distance: 0
+IMAGE 1: image662.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image662.jpg
+IMAGE 2: images91_jpg.rf.f6jS9VsAskdeJ69RmVmU.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images91_jpg.rf.f6jS9VsAskdeJ69RmVmU.jpg
+------------------------------------------------------------
+[25] Distance: 0
+IMAGE 1: image662.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image662.jpg
+IMAGE 2: images91_jpg.rf.JOOHYHdpHfCYvmu9Ge6H.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images91_jpg.rf.JOOHYHdpHfCYvmu9Ge6H.jpg
+------------------------------------------------------------
+[26] Distance: 0
+IMAGE 1: image695.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image695.jpg
+IMAGE 2: image703.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image703.jpg
+------------------------------------------------------------
+[27] Distance: 0
+IMAGE 1: image71.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image71.jpg
+IMAGE 2: image787.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image787.jpg
+------------------------------------------------------------
+[28] Distance: 0
+IMAGE 1: image71.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image71.jpg
+IMAGE 2: images91_jpg.rf.f6jS9VsAskdeJ69RmVmU.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images91_jpg.rf.f6jS9VsAskdeJ69RmVmU.jpg
+------------------------------------------------------------
+[29] Distance: 0
+IMAGE 1: image71.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image71.jpg
+IMAGE 2: images91_jpg.rf.JOOHYHdpHfCYvmu9Ge6H.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images91_jpg.rf.JOOHYHdpHfCYvmu9Ge6H.jpg
+------------------------------------------------------------
+[30] Distance: 0
+IMAGE 1: image787.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image787.jpg
+IMAGE 2: images91_jpg.rf.f6jS9VsAskdeJ69RmVmU.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images91_jpg.rf.f6jS9VsAskdeJ69RmVmU.jpg
+------------------------------------------------------------
+[31] Distance: 0
+IMAGE 1: image787.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image787.jpg
+IMAGE 2: images91_jpg.rf.JOOHYHdpHfCYvmu9Ge6H.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images91_jpg.rf.JOOHYHdpHfCYvmu9Ge6H.jpg
+------------------------------------------------------------
+[32] Distance: 0
+IMAGE 1: images91_jpg.rf.f6jS9VsAskdeJ69RmVmU.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images91_jpg.rf.f6jS9VsAskdeJ69RmVmU.jpg
+IMAGE 2: images91_jpg.rf.JOOHYHdpHfCYvmu9Ge6H.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images91_jpg.rf.JOOHYHdpHfCYvmu9Ge6H.jpg
+------------------------------------------------------------
+[33] Distance: 2
+IMAGE 1: 0087_png.rf.af57LVmixCRJJGhUOmZg.png
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\0087_png.rf.af57LVmixCRJJGhUOmZg.png
+IMAGE 2: image1405.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1405.jpg
+------------------------------------------------------------
+[34] Distance: 2
+IMAGE 1: 1004_png_jpg.rf.R0zXE4BpHN5z440iH5gy.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1004_png_jpg.rf.R0zXE4BpHN5z440iH5gy.jpg
+IMAGE 2: image1436.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1436.jpg
+------------------------------------------------------------
+[35] Distance: 2
+IMAGE 1: 1011_png_jpg.rf.R7x23rfPs2fkyaq0faod.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1011_png_jpg.rf.R7x23rfPs2fkyaq0faod.jpg
+IMAGE 2: 1012_png_jpg.rf.6grHdo6sadvjhAj8bMLy.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1012_png_jpg.rf.6grHdo6sadvjhAj8bMLy.jpg
+------------------------------------------------------------
+[36] Distance: 2
+IMAGE 1: 1011_png_jpg.rf.R7x23rfPs2fkyaq0faod.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1011_png_jpg.rf.R7x23rfPs2fkyaq0faod.jpg
+IMAGE 2: 1014_png_jpg.rf.xNq2EqZEfL2KnzYkOPtt.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1014_png_jpg.rf.xNq2EqZEfL2KnzYkOPtt.jpg
+------------------------------------------------------------
+[37] Distance: 2
+IMAGE 1: 1012_png_jpg.rf.6grHdo6sadvjhAj8bMLy.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1012_png_jpg.rf.6grHdo6sadvjhAj8bMLy.jpg
+IMAGE 2: 1013_png_jpg.rf.MvQuoFCetVTXwuvPNf04.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1013_png_jpg.rf.MvQuoFCetVTXwuvPNf04.jpg
+------------------------------------------------------------
+[38] Distance: 2
+IMAGE 1: 1012_png_jpg.rf.6grHdo6sadvjhAj8bMLy.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1012_png_jpg.rf.6grHdo6sadvjhAj8bMLy.jpg
+IMAGE 2: 1014_png_jpg.rf.xNq2EqZEfL2KnzYkOPtt.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1014_png_jpg.rf.xNq2EqZEfL2KnzYkOPtt.jpg
+------------------------------------------------------------
+[39] Distance: 2
+IMAGE 1: 1012_png_jpg.rf.6grHdo6sadvjhAj8bMLy.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1012_png_jpg.rf.6grHdo6sadvjhAj8bMLy.jpg
+IMAGE 2: 1017_png_jpg.rf.i13EtZlVz49ULGuDa3Uu.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1017_png_jpg.rf.i13EtZlVz49ULGuDa3Uu.jpg
+------------------------------------------------------------
+[40] Distance: 2
+IMAGE 1: 1012_png_jpg.rf.6grHdo6sadvjhAj8bMLy.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1012_png_jpg.rf.6grHdo6sadvjhAj8bMLy.jpg
+IMAGE 2: 549_png_jpg.rf.yH61T24yuHaDpnOcKfZZ.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\549_png_jpg.rf.yH61T24yuHaDpnOcKfZZ.jpg
+------------------------------------------------------------
+[41] Distance: 2
+IMAGE 1: 1013_png_jpg.rf.MvQuoFCetVTXwuvPNf04.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1013_png_jpg.rf.MvQuoFCetVTXwuvPNf04.jpg
+IMAGE 2: 1014_png_jpg.rf.xNq2EqZEfL2KnzYkOPtt.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1014_png_jpg.rf.xNq2EqZEfL2KnzYkOPtt.jpg
+------------------------------------------------------------
+[42] Distance: 2
+IMAGE 1: 1013_png_jpg.rf.MvQuoFCetVTXwuvPNf04.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1013_png_jpg.rf.MvQuoFCetVTXwuvPNf04.jpg
+IMAGE 2: 1017_png_jpg.rf.i13EtZlVz49ULGuDa3Uu.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1017_png_jpg.rf.i13EtZlVz49ULGuDa3Uu.jpg
+------------------------------------------------------------
+[43] Distance: 2
+IMAGE 1: 1013_png_jpg.rf.MvQuoFCetVTXwuvPNf04.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1013_png_jpg.rf.MvQuoFCetVTXwuvPNf04.jpg
+IMAGE 2: 549_png_jpg.rf.yH61T24yuHaDpnOcKfZZ.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\549_png_jpg.rf.yH61T24yuHaDpnOcKfZZ.jpg
+------------------------------------------------------------
+[44] Distance: 2
+IMAGE 1: 1014_png_jpg.rf.xNq2EqZEfL2KnzYkOPtt.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1014_png_jpg.rf.xNq2EqZEfL2KnzYkOPtt.jpg
+IMAGE 2: 1017_png_jpg.rf.i13EtZlVz49ULGuDa3Uu.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1017_png_jpg.rf.i13EtZlVz49ULGuDa3Uu.jpg
+------------------------------------------------------------
+[45] Distance: 2
+IMAGE 1: 1014_png_jpg.rf.xNq2EqZEfL2KnzYkOPtt.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1014_png_jpg.rf.xNq2EqZEfL2KnzYkOPtt.jpg
+IMAGE 2: 549_png_jpg.rf.yH61T24yuHaDpnOcKfZZ.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\549_png_jpg.rf.yH61T24yuHaDpnOcKfZZ.jpg
+------------------------------------------------------------
+[46] Distance: 2
+IMAGE 1: 1020_png_jpg.rf.0YeJEKasF9mwf3GXv2SM.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1020_png_jpg.rf.0YeJEKasF9mwf3GXv2SM.jpg
+IMAGE 2: 1021_png_jpg.rf.ss4Cs1CeaZOikkkkSbMm.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1021_png_jpg.rf.ss4Cs1CeaZOikkkkSbMm.jpg
+------------------------------------------------------------
+[47] Distance: 2
+IMAGE 1: 1021_png_jpg.rf.ss4Cs1CeaZOikkkkSbMm.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1021_png_jpg.rf.ss4Cs1CeaZOikkkkSbMm.jpg
+IMAGE 2: 1023_png_jpg.rf.GMRZ4x2yNgjQqfktpBE7.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1023_png_jpg.rf.GMRZ4x2yNgjQqfktpBE7.jpg
+------------------------------------------------------------
+[48] Distance: 2
+IMAGE 1: 1033_png_jpg.rf.FR60dKPjc0nAe7BWq5Uh.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1033_png_jpg.rf.FR60dKPjc0nAe7BWq5Uh.jpg
+IMAGE 2: image648.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image648.jpg
+------------------------------------------------------------
+[49] Distance: 2
+IMAGE 1: 1041_png_jpg.rf.OYBD7a6PfGXo1lwSY9Ue.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1041_png_jpg.rf.OYBD7a6PfGXo1lwSY9Ue.jpg
+IMAGE 2: 1042_png_jpg.rf.yQZgkXf39Svt5CxS66PV.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1042_png_jpg.rf.yQZgkXf39Svt5CxS66PV.jpg
+------------------------------------------------------------
+[50] Distance: 2
+IMAGE 1: 1044_png_jpg.rf.NTJz4YAlwkiMewa8zcWO.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1044_png_jpg.rf.NTJz4YAlwkiMewa8zcWO.jpg
+IMAGE 2: 1045_png_jpg.rf.TSKa4wyDeZ0Ea7YFeUG4.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1045_png_jpg.rf.TSKa4wyDeZ0Ea7YFeUG4.jpg
+------------------------------------------------------------
+[51] Distance: 2
+IMAGE 1: 1079_png_jpg.rf.Yz9PGTTFanERSsAKylIJ.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1079_png_jpg.rf.Yz9PGTTFanERSsAKylIJ.jpg
+IMAGE 2: 1080_png_jpg.rf.Q7QbOL6eYsDqKb5pP3Wm.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1080_png_jpg.rf.Q7QbOL6eYsDqKb5pP3Wm.jpg
+------------------------------------------------------------
+[52] Distance: 2
+IMAGE 1: 1081_png_jpg.rf.gmEqF90spkldJ89h3yVX.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1081_png_jpg.rf.gmEqF90spkldJ89h3yVX.jpg
+IMAGE 2: 1082_png_jpg.rf.hzH4N08eCrWTURdOUwCs.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1082_png_jpg.rf.hzH4N08eCrWTURdOUwCs.jpg
+------------------------------------------------------------
+[53] Distance: 2
+IMAGE 1: 120_png_jpg.rf.SvWfs9BgnufJX7mnCgyR.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\120_png_jpg.rf.SvWfs9BgnufJX7mnCgyR.jpg
+IMAGE 2: image1141.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1141.jpg
+------------------------------------------------------------
+[54] Distance: 2
+IMAGE 1: 121_png_jpg.rf.xwwSITDDkyfQyIH9e0yD.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\121_png_jpg.rf.xwwSITDDkyfQyIH9e0yD.jpg
+IMAGE 2: 167_png_jpg.rf.gOFrmq1u7WUimI4nwNRT.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\167_png_jpg.rf.gOFrmq1u7WUimI4nwNRT.jpg
+------------------------------------------------------------
+[55] Distance: 2
+IMAGE 1: 1261_png_jpg.rf.41vWs9jJd4ytN24MbaI1.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1261_png_jpg.rf.41vWs9jJd4ytN24MbaI1.jpg
+IMAGE 2: 1261_png_jpg.rf.4WdKXDb3rNrbA1dNtVGA.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1261_png_jpg.rf.4WdKXDb3rNrbA1dNtVGA.jpg
+------------------------------------------------------------
+[56] Distance: 2
+IMAGE 1: 131f97aed800edb04dd4c2b8e39364e2_jpeg.rf.luoz2pENgfSnAutp03yz.jpeg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\131f97aed800edb04dd4c2b8e39364e2_jpeg.rf.luoz2pENgfSnAutp03yz.jpeg
+IMAGE 2: images (7)_jpeg.rf.9f2dYMk80rKSzEkh2lrr.jpeg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images (7)_jpeg.rf.9f2dYMk80rKSzEkh2lrr.jpeg
+------------------------------------------------------------
+[57] Distance: 2
+IMAGE 1: 14_jpg.rf.de0cd547e741107fcf2e3ccdaf59d3cb.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\14_jpg.rf.de0cd547e741107fcf2e3ccdaf59d3cb.jpg
+IMAGE 2: img-324_jpg.rf.0xc7WRO4jsNhtXrvgeoc.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-324_jpg.rf.0xc7WRO4jsNhtXrvgeoc.jpg
+------------------------------------------------------------
+[58] Distance: 2
+IMAGE 1: 159_png_jpg.rf.pDHqtwKvKbTrCnmwvtPZ.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\159_png_jpg.rf.pDHqtwKvKbTrCnmwvtPZ.jpg
+IMAGE 2: 160_png_jpg.rf.3xBn811ALzQj3uOkx2eM.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\160_png_jpg.rf.3xBn811ALzQj3uOkx2eM.jpg
+------------------------------------------------------------
+[59] Distance: 2
+IMAGE 1: 162_png_jpg.rf.zM2wlk4nIT8kgn5idPZn.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\162_png_jpg.rf.zM2wlk4nIT8kgn5idPZn.jpg
+IMAGE 2: 163_png_jpg.rf.mxd19LgykRa39LqGSMCb.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\163_png_jpg.rf.mxd19LgykRa39LqGSMCb.jpg
+------------------------------------------------------------
+[60] Distance: 2
+IMAGE 1: 163_png_jpg.rf.mxd19LgykRa39LqGSMCb.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\163_png_jpg.rf.mxd19LgykRa39LqGSMCb.jpg
+IMAGE 2: 165_png_jpg.rf.VaSKwA6yrFPTW81mbtlc.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\165_png_jpg.rf.VaSKwA6yrFPTW81mbtlc.jpg
+------------------------------------------------------------
+[61] Distance: 2
+IMAGE 1: 163_png_jpg.rf.mxd19LgykRa39LqGSMCb.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\163_png_jpg.rf.mxd19LgykRa39LqGSMCb.jpg
+IMAGE 2: 166_png_jpg.rf.ghNAMgHZFmWoMk57cyr0.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\166_png_jpg.rf.ghNAMgHZFmWoMk57cyr0.jpg
+------------------------------------------------------------
+[62] Distance: 2
+IMAGE 1: 164_png_jpg.rf.eYoLxwaD3uaAQZNWF2Fl.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\164_png_jpg.rf.eYoLxwaD3uaAQZNWF2Fl.jpg
+IMAGE 2: 164_png_jpg.rf.L4pkhssnzbEloYdXisHj.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\164_png_jpg.rf.L4pkhssnzbEloYdXisHj.jpg
+------------------------------------------------------------
+[63] Distance: 2
+IMAGE 1: 165_png_jpg.rf.VaSKwA6yrFPTW81mbtlc.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\165_png_jpg.rf.VaSKwA6yrFPTW81mbtlc.jpg
+IMAGE 2: 166_png_jpg.rf.ghNAMgHZFmWoMk57cyr0.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\166_png_jpg.rf.ghNAMgHZFmWoMk57cyr0.jpg
+------------------------------------------------------------
+[64] Distance: 2
+IMAGE 1: 166_png_jpg.rf.ghNAMgHZFmWoMk57cyr0.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\166_png_jpg.rf.ghNAMgHZFmWoMk57cyr0.jpg
+IMAGE 2: 167_png_jpg.rf.gOFrmq1u7WUimI4nwNRT.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\167_png_jpg.rf.gOFrmq1u7WUimI4nwNRT.jpg
+------------------------------------------------------------
+[65] Distance: 2
+IMAGE 1: 16_png_jpg.rf.TDS4pFEFyAR2FYYibS9M.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\16_png_jpg.rf.TDS4pFEFyAR2FYYibS9M.jpg
+IMAGE 2: 16_png_jpg.rf.tfJsxfuCwvZPqwyCSeyW.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\16_png_jpg.rf.tfJsxfuCwvZPqwyCSeyW.jpg
+------------------------------------------------------------
+[66] Distance: 2
+IMAGE 1: 16_png_jpg.rf.TDS4pFEFyAR2FYYibS9M.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\16_png_jpg.rf.TDS4pFEFyAR2FYYibS9M.jpg
+IMAGE 2: 17_png_jpg.rf.733eN2OIrmss9We2NSMH.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\17_png_jpg.rf.733eN2OIrmss9We2NSMH.jpg
+------------------------------------------------------------
+[67] Distance: 2
+IMAGE 1: 16_png_jpg.rf.tfJsxfuCwvZPqwyCSeyW.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\16_png_jpg.rf.tfJsxfuCwvZPqwyCSeyW.jpg
+IMAGE 2: 17_png_jpg.rf.733eN2OIrmss9We2NSMH.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\17_png_jpg.rf.733eN2OIrmss9We2NSMH.jpg
+------------------------------------------------------------
+[68] Distance: 2
+IMAGE 1: 16_png_jpg.rf.tfJsxfuCwvZPqwyCSeyW.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\16_png_jpg.rf.tfJsxfuCwvZPqwyCSeyW.jpg
+IMAGE 2: 18_png_jpg.rf.msRLhsJO9xIEpHDFw4Ec.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\18_png_jpg.rf.msRLhsJO9xIEpHDFw4Ec.jpg
+------------------------------------------------------------
+[69] Distance: 2
+IMAGE 1: 17_png_jpg.rf.733eN2OIrmss9We2NSMH.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\17_png_jpg.rf.733eN2OIrmss9We2NSMH.jpg
+IMAGE 2: 18_png_jpg.rf.msRLhsJO9xIEpHDFw4Ec.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\18_png_jpg.rf.msRLhsJO9xIEpHDFw4Ec.jpg
+------------------------------------------------------------
+[70] Distance: 2
+IMAGE 1: 195_png_jpg.rf.UiHGdOVCbYFkpp1vOvi3.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\195_png_jpg.rf.UiHGdOVCbYFkpp1vOvi3.jpg
+IMAGE 2: 23_png_jpg.rf.aDhfrtD2jDpeX8DP2Xn7.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\23_png_jpg.rf.aDhfrtD2jDpeX8DP2Xn7.jpg
+------------------------------------------------------------
+[71] Distance: 2
+IMAGE 1: 1_png_jpg.rf.biHmqF53yZPDz14pSiRq.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1_png_jpg.rf.biHmqF53yZPDz14pSiRq.jpg
+IMAGE 2: image1342.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1342.jpg
+------------------------------------------------------------
+[72] Distance: 2
+IMAGE 1: 207_png_jpg.rf.hf7wW17wn7cytNkqMvbj.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\207_png_jpg.rf.hf7wW17wn7cytNkqMvbj.jpg
+IMAGE 2: image1272.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1272.jpg
+------------------------------------------------------------
+[73] Distance: 2
+IMAGE 1: 220_png_jpg.rf.HsAO1TYAbTrpNLcKiZwH.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\220_png_jpg.rf.HsAO1TYAbTrpNLcKiZwH.jpg
+IMAGE 2: image1383.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1383.jpg
+------------------------------------------------------------
+[74] Distance: 2
+IMAGE 1: 221_png_jpg.rf.hcG6Ja7QqRy6D72OreGd.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\221_png_jpg.rf.hcG6Ja7QqRy6D72OreGd.jpg
+IMAGE 2: image1383.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1383.jpg
+------------------------------------------------------------
+[75] Distance: 2
+IMAGE 1: 307_png_jpg.rf.IEBld4PfbBkgUrYzRz76.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\307_png_jpg.rf.IEBld4PfbBkgUrYzRz76.jpg
+IMAGE 2: image980.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image980.jpg
+------------------------------------------------------------
+[76] Distance: 2
+IMAGE 1: 30_png_jpg.rf.HonNzjGRRfWG5yYQtCeG.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\30_png_jpg.rf.HonNzjGRRfWG5yYQtCeG.jpg
+IMAGE 2: 30_png_jpg.rf.lA0IwoALZ6Sh6EHrc02f.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\30_png_jpg.rf.lA0IwoALZ6Sh6EHrc02f.jpg
+------------------------------------------------------------
+[77] Distance: 2
+IMAGE 1: 379_png_jpg.rf.EWwZvXHkVDIxtXGFNUD1.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\379_png_jpg.rf.EWwZvXHkVDIxtXGFNUD1.jpg
+IMAGE 2: 380_png_jpg.rf.49U6Ybl1MJMIKexrw6LX.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\380_png_jpg.rf.49U6Ybl1MJMIKexrw6LX.jpg
+------------------------------------------------------------
+[78] Distance: 2
+IMAGE 1: 387_png_jpg.rf.t3AVWCnnvdl7OE2tEpPC.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\387_png_jpg.rf.t3AVWCnnvdl7OE2tEpPC.jpg
+IMAGE 2: 388_png_jpg.rf.5KNopr33wUy6ZosHayEY.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\388_png_jpg.rf.5KNopr33wUy6ZosHayEY.jpg
+------------------------------------------------------------
+[79] Distance: 2
+IMAGE 1: 388_png_jpg.rf.5KNopr33wUy6ZosHayEY.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\388_png_jpg.rf.5KNopr33wUy6ZosHayEY.jpg
+IMAGE 2: 389_png_jpg.rf.vInn1IqbpuwzvepIVvNO.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\389_png_jpg.rf.vInn1IqbpuwzvepIVvNO.jpg
+------------------------------------------------------------
+[80] Distance: 2
+IMAGE 1: 395_png_jpg.rf.7MfQCX5h8CnWKSCE8mQZ.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\395_png_jpg.rf.7MfQCX5h8CnWKSCE8mQZ.jpg
+IMAGE 2: image1360.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1360.jpg
+------------------------------------------------------------
+[81] Distance: 2
+IMAGE 1: 396_png_jpg.rf.vl3VOhatIwI7dK6EHHlC.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\396_png_jpg.rf.vl3VOhatIwI7dK6EHHlC.jpg
+IMAGE 2: image1360.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1360.jpg
+------------------------------------------------------------
+[82] Distance: 2
+IMAGE 1: 397_png_jpg.rf.cHWL9oF66uKPiBQ8TKyz.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\397_png_jpg.rf.cHWL9oF66uKPiBQ8TKyz.jpg
+IMAGE 2: image1360.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1360.jpg
+------------------------------------------------------------
+[83] Distance: 2
+IMAGE 1: 416_png_jpg.rf.o627ZzEv9hP09jkT0FbT.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\416_png_jpg.rf.o627ZzEv9hP09jkT0FbT.jpg
+IMAGE 2: 417_png_jpg.rf.Z3qqgPisD6LpXbOlqjPg.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\417_png_jpg.rf.Z3qqgPisD6LpXbOlqjPg.jpg
+------------------------------------------------------------
+[84] Distance: 2
+IMAGE 1: 417_png_jpg.rf.Z3qqgPisD6LpXbOlqjPg.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\417_png_jpg.rf.Z3qqgPisD6LpXbOlqjPg.jpg
+IMAGE 2: 418_png_jpg.rf.d2Gs4a11uKJEzKWgaOyl.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\418_png_jpg.rf.d2Gs4a11uKJEzKWgaOyl.jpg
+------------------------------------------------------------
+[85] Distance: 2
+IMAGE 1: 428_png_jpg.rf.rYV7vXQ7YndHNKUOowRq.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\428_png_jpg.rf.rYV7vXQ7YndHNKUOowRq.jpg
+IMAGE 2: 429_png_jpg.rf.1uXwRHXGPhoXEJIF0VPi.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\429_png_jpg.rf.1uXwRHXGPhoXEJIF0VPi.jpg
+------------------------------------------------------------
+[86] Distance: 2
+IMAGE 1: 431_png_jpg.rf.x8Zyc8rmEveUvunEHqaR.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\431_png_jpg.rf.x8Zyc8rmEveUvunEHqaR.jpg
+IMAGE 2: 432_png_jpg.rf.mRJIdRioW3tNSM8YjsRG.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\432_png_jpg.rf.mRJIdRioW3tNSM8YjsRG.jpg
+------------------------------------------------------------
+[87] Distance: 2
+IMAGE 1: 432_png_jpg.rf.mRJIdRioW3tNSM8YjsRG.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\432_png_jpg.rf.mRJIdRioW3tNSM8YjsRG.jpg
+IMAGE 2: 433_png_jpg.rf.pNjY7FCb0t1nmPgY8m6l.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\433_png_jpg.rf.pNjY7FCb0t1nmPgY8m6l.jpg
+------------------------------------------------------------
+[88] Distance: 2
+IMAGE 1: 433_png_jpg.rf.pNjY7FCb0t1nmPgY8m6l.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\433_png_jpg.rf.pNjY7FCb0t1nmPgY8m6l.jpg
+IMAGE 2: 434_png_jpg.rf.vAye8HrXrG9zpaeQ2nko.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\434_png_jpg.rf.vAye8HrXrG9zpaeQ2nko.jpg
+------------------------------------------------------------
+[89] Distance: 2
+IMAGE 1: 435_png_jpg.rf.0Z8D8HZ37lttFtsNWlt8.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\435_png_jpg.rf.0Z8D8HZ37lttFtsNWlt8.jpg
+IMAGE 2: image477.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image477.jpg
+------------------------------------------------------------
+[90] Distance: 2
+IMAGE 1: 440_png_jpg.rf.6SVU85adrX648OqxbxiW.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\440_png_jpg.rf.6SVU85adrX648OqxbxiW.jpg
+IMAGE 2: 441_png_jpg.rf.bmxymzT8quoMlcb0oQXU.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\441_png_jpg.rf.bmxymzT8quoMlcb0oQXU.jpg
+------------------------------------------------------------
+[91] Distance: 2
+IMAGE 1: 440_png_jpg.rf.6SVU85adrX648OqxbxiW.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\440_png_jpg.rf.6SVU85adrX648OqxbxiW.jpg
+IMAGE 2: 441_png_jpg.rf.szKrRwzHo2iefD408rY9.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\441_png_jpg.rf.szKrRwzHo2iefD408rY9.jpg
+------------------------------------------------------------
+[92] Distance: 2
+IMAGE 1: 440_png_jpg.rf.6SVU85adrX648OqxbxiW.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\440_png_jpg.rf.6SVU85adrX648OqxbxiW.jpg
+IMAGE 2: 442_png_jpg.rf.TBGHIeerXg0on7NiN965.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\442_png_jpg.rf.TBGHIeerXg0on7NiN965.jpg
+------------------------------------------------------------
+[93] Distance: 2
+IMAGE 1: 441_png_jpg.rf.bmxymzT8quoMlcb0oQXU.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\441_png_jpg.rf.bmxymzT8quoMlcb0oQXU.jpg
+IMAGE 2: 442_png_jpg.rf.TBGHIeerXg0on7NiN965.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\442_png_jpg.rf.TBGHIeerXg0on7NiN965.jpg
+------------------------------------------------------------
+[94] Distance: 2
+IMAGE 1: 441_png_jpg.rf.szKrRwzHo2iefD408rY9.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\441_png_jpg.rf.szKrRwzHo2iefD408rY9.jpg
+IMAGE 2: 442_png_jpg.rf.TBGHIeerXg0on7NiN965.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\442_png_jpg.rf.TBGHIeerXg0on7NiN965.jpg
+------------------------------------------------------------
+[95] Distance: 2
+IMAGE 1: 443_png_jpg.rf.VDpkFxYQUTW79SDswdo1.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\443_png_jpg.rf.VDpkFxYQUTW79SDswdo1.jpg
+IMAGE 2: image779.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image779.jpg
+------------------------------------------------------------
+[96] Distance: 2
+IMAGE 1: 444_png_jpg.rf.N771hXLMZA7BOtXbBky1.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\444_png_jpg.rf.N771hXLMZA7BOtXbBky1.jpg
+IMAGE 2: 445_png_jpg.rf.DF7jYUWuJGzlc0573JPS.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\445_png_jpg.rf.DF7jYUWuJGzlc0573JPS.jpg
+------------------------------------------------------------
+[97] Distance: 2
+IMAGE 1: 445_png_jpg.rf.DF7jYUWuJGzlc0573JPS.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\445_png_jpg.rf.DF7jYUWuJGzlc0573JPS.jpg
+IMAGE 2: 446_png_jpg.rf.ZtohKs3xuUgKuwBCFIrt.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\446_png_jpg.rf.ZtohKs3xuUgKuwBCFIrt.jpg
+------------------------------------------------------------
+[98] Distance: 2
+IMAGE 1: 448_png_jpg.rf.KzOpn1XzK3xp1Ok5mdLs.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\448_png_jpg.rf.KzOpn1XzK3xp1Ok5mdLs.jpg
+IMAGE 2: 449_png_jpg.rf.FOI2xuxRb13OlSdarfep.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\449_png_jpg.rf.FOI2xuxRb13OlSdarfep.jpg
+------------------------------------------------------------
+[99] Distance: 2
+IMAGE 1: 448_png_jpg.rf.KzOpn1XzK3xp1Ok5mdLs.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\448_png_jpg.rf.KzOpn1XzK3xp1Ok5mdLs.jpg
+IMAGE 2: image840.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image840.jpg
+------------------------------------------------------------
+[100] Distance: 2
+IMAGE 1: 449_png_jpg.rf.FOI2xuxRb13OlSdarfep.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\449_png_jpg.rf.FOI2xuxRb13OlSdarfep.jpg
+IMAGE 2: image840.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image840.jpg
+------------------------------------------------------------
+[101] Distance: 2
+IMAGE 1: 450_png_jpg.rf.Fq8ZksD8UApyVqM4Ko9Q.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\450_png_jpg.rf.Fq8ZksD8UApyVqM4Ko9Q.jpg
+IMAGE 2: 454_png_jpg.rf.r3psTI6PTxXUcHBJCMRx.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\454_png_jpg.rf.r3psTI6PTxXUcHBJCMRx.jpg
+------------------------------------------------------------
+[102] Distance: 2
+IMAGE 1: 453_png_jpg.rf.mLqOa1E3g52Z8WOx6tYl.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\453_png_jpg.rf.mLqOa1E3g52Z8WOx6tYl.jpg
+IMAGE 2: 531_png_jpg.rf.nKNF3vP0Tb1y5IKFoInM.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\531_png_jpg.rf.nKNF3vP0Tb1y5IKFoInM.jpg
+------------------------------------------------------------
+[103] Distance: 2
+IMAGE 1: 455_png_jpg.rf.DQ6IF0vFL2TkeZe4nfDT.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\455_png_jpg.rf.DQ6IF0vFL2TkeZe4nfDT.jpg
+IMAGE 2: 457_png_jpg.rf.7rh81nkPFf609SgoEGRV.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\457_png_jpg.rf.7rh81nkPFf609SgoEGRV.jpg
+------------------------------------------------------------
+[104] Distance: 2
+IMAGE 1: 455_png_jpg.rf.DQ6IF0vFL2TkeZe4nfDT.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\455_png_jpg.rf.DQ6IF0vFL2TkeZe4nfDT.jpg
+IMAGE 2: 458_png_jpg.rf.ZaJCExta3B3Fd4O4PFCY.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\458_png_jpg.rf.ZaJCExta3B3Fd4O4PFCY.jpg
+------------------------------------------------------------
+[105] Distance: 2
+IMAGE 1: 457_png_jpg.rf.7rh81nkPFf609SgoEGRV.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\457_png_jpg.rf.7rh81nkPFf609SgoEGRV.jpg
+IMAGE 2: 458_png_jpg.rf.ZaJCExta3B3Fd4O4PFCY.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\458_png_jpg.rf.ZaJCExta3B3Fd4O4PFCY.jpg
+------------------------------------------------------------
+[106] Distance: 2
+IMAGE 1: 457_png_jpg.rf.7rh81nkPFf609SgoEGRV.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\457_png_jpg.rf.7rh81nkPFf609SgoEGRV.jpg
+IMAGE 2: 459_png_jpg.rf.ygdmKiN6lx6HQwLVh1ME.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\459_png_jpg.rf.ygdmKiN6lx6HQwLVh1ME.jpg
+------------------------------------------------------------
+[107] Distance: 2
+IMAGE 1: 458_png_jpg.rf.ZaJCExta3B3Fd4O4PFCY.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\458_png_jpg.rf.ZaJCExta3B3Fd4O4PFCY.jpg
+IMAGE 2: 459_png_jpg.rf.ygdmKiN6lx6HQwLVh1ME.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\459_png_jpg.rf.ygdmKiN6lx6HQwLVh1ME.jpg
+------------------------------------------------------------
+[108] Distance: 2
+IMAGE 1: 458_png_jpg.rf.ZaJCExta3B3Fd4O4PFCY.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\458_png_jpg.rf.ZaJCExta3B3Fd4O4PFCY.jpg
+IMAGE 2: 461_png_jpg.rf.UElWjtoA8LnCOCx6IxTT.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\461_png_jpg.rf.UElWjtoA8LnCOCx6IxTT.jpg
+------------------------------------------------------------
+[109] Distance: 2
+IMAGE 1: 481_png_jpg.rf.rUHW43qoIQNwdSZGGiUo.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\481_png_jpg.rf.rUHW43qoIQNwdSZGGiUo.jpg
+IMAGE 2: 482_png_jpg.rf.fUWcmFtpXZDZRAWYXLkU.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\482_png_jpg.rf.fUWcmFtpXZDZRAWYXLkU.jpg
+------------------------------------------------------------
+[110] Distance: 2
+IMAGE 1: 483_png_jpg.rf.tRvTpXf7ZbcI9Yvu5Goh.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\483_png_jpg.rf.tRvTpXf7ZbcI9Yvu5Goh.jpg
+IMAGE 2: 484_png_jpg.rf.9QeyXk8rzTnPM3H7jUAp.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\484_png_jpg.rf.9QeyXk8rzTnPM3H7jUAp.jpg
+------------------------------------------------------------
+[111] Distance: 2
+IMAGE 1: 485_png_jpg.rf.WWPHEdOcxZzb9i3LMx8W.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\485_png_jpg.rf.WWPHEdOcxZzb9i3LMx8W.jpg
+IMAGE 2: 486_png_jpg.rf.VfvgxD3qFJGhydvR6BtP.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\486_png_jpg.rf.VfvgxD3qFJGhydvR6BtP.jpg
+------------------------------------------------------------
+[112] Distance: 2
+IMAGE 1: 486_png_jpg.rf.VfvgxD3qFJGhydvR6BtP.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\486_png_jpg.rf.VfvgxD3qFJGhydvR6BtP.jpg
+IMAGE 2: 488_png_jpg.rf.4DppcZITvizUcluKdL8g.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\488_png_jpg.rf.4DppcZITvizUcluKdL8g.jpg
+------------------------------------------------------------
+[113] Distance: 2
+IMAGE 1: 487_png_jpg.rf.lCB1bFZToBhLZJlP4EMu.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\487_png_jpg.rf.lCB1bFZToBhLZJlP4EMu.jpg
+IMAGE 2: 488_png_jpg.rf.4DppcZITvizUcluKdL8g.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\488_png_jpg.rf.4DppcZITvizUcluKdL8g.jpg
+------------------------------------------------------------
+[114] Distance: 2
+IMAGE 1: 490_png_jpg.rf.ZxlO6zLxCl8rp4RGJQ7x.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\490_png_jpg.rf.ZxlO6zLxCl8rp4RGJQ7x.jpg
+IMAGE 2: 491_png_jpg.rf.bPKIhvr7Cy2WiaJz3GGH.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\491_png_jpg.rf.bPKIhvr7Cy2WiaJz3GGH.jpg
+------------------------------------------------------------
+[115] Distance: 2
+IMAGE 1: 493_png_jpg.rf.A2BsoLTjr0GBPNaaWilk.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\493_png_jpg.rf.A2BsoLTjr0GBPNaaWilk.jpg
+IMAGE 2: image1121.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1121.jpg
+------------------------------------------------------------
+[116] Distance: 2
+IMAGE 1: 495_png_jpg.rf.IsdiwSQCWn0iKrRK0c76.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\495_png_jpg.rf.IsdiwSQCWn0iKrRK0c76.jpg
+IMAGE 2: 496_png_jpg.rf.hh3sE8wxsYVP3B8vYSRF.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\496_png_jpg.rf.hh3sE8wxsYVP3B8vYSRF.jpg
+------------------------------------------------------------
+[117] Distance: 2
+IMAGE 1: 497_png_jpg.rf.G399s1OAftMaFY0pqB8U.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\497_png_jpg.rf.G399s1OAftMaFY0pqB8U.jpg
+IMAGE 2: 498_png_jpg.rf.4lmvU2ND8REUaz10O7W8.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\498_png_jpg.rf.4lmvU2ND8REUaz10O7W8.jpg
+------------------------------------------------------------
+[118] Distance: 2
+IMAGE 1: 49_png_jpg.rf.ZhRuyLTeyU1Xnoq85DQa.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\49_png_jpg.rf.ZhRuyLTeyU1Xnoq85DQa.jpg
+IMAGE 2: image1279.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1279.jpg
+------------------------------------------------------------
+[119] Distance: 2
+IMAGE 1: 500_png_jpg.rf.9TaC1Z5ozG8yOnVkCNlr.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\500_png_jpg.rf.9TaC1Z5ozG8yOnVkCNlr.jpg
+IMAGE 2: 501_png_jpg.rf.eNBnpTcViFsi2CmsY4DZ.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\501_png_jpg.rf.eNBnpTcViFsi2CmsY4DZ.jpg
+------------------------------------------------------------
+[120] Distance: 2
+IMAGE 1: 503_png_jpg.rf.dRwyxH4vGnXtCci8lRNx.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\503_png_jpg.rf.dRwyxH4vGnXtCci8lRNx.jpg
+IMAGE 2: 504_png_jpg.rf.q7klkllRFWYQSPH2skVJ.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\504_png_jpg.rf.q7klkllRFWYQSPH2skVJ.jpg
+------------------------------------------------------------
+[121] Distance: 2
+IMAGE 1: 521_png_jpg.rf.GUoABIK35kr8Bxeiehif.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\521_png_jpg.rf.GUoABIK35kr8Bxeiehif.jpg
+IMAGE 2: image998.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image998.jpg
+------------------------------------------------------------
+[122] Distance: 2
+IMAGE 1: 530_png_jpg.rf.PbJnhIp4W8MWi9Q2uVNm.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\530_png_jpg.rf.PbJnhIp4W8MWi9Q2uVNm.jpg
+IMAGE 2: image1314.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1314.jpg
+------------------------------------------------------------
+[123] Distance: 2
+IMAGE 1: 530_png_jpg.rf.PbJnhIp4W8MWi9Q2uVNm.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\530_png_jpg.rf.PbJnhIp4W8MWi9Q2uVNm.jpg
+IMAGE 2: image281.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image281.jpg
+------------------------------------------------------------
+[124] Distance: 2
+IMAGE 1: image1018.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1018.jpg
+IMAGE 2: img-361_jpg.rf.K8FveVIOFUcBmMioT1SF.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-361_jpg.rf.K8FveVIOFUcBmMioT1SF.jpg
+------------------------------------------------------------
+[125] Distance: 2
+IMAGE 1: image1039.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1039.jpg
+IMAGE 2: img-617_jpg.rf.BuXvPWawf01id3n3hiQR.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-617_jpg.rf.BuXvPWawf01id3n3hiQR.jpg
+------------------------------------------------------------
+[126] Distance: 2
+IMAGE 1: image1045.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1045.jpg
+IMAGE 2: image694.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image694.jpg
+------------------------------------------------------------
+[127] Distance: 2
+IMAGE 1: image1047.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1047.jpg
+IMAGE 2: image311.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image311.jpg
+------------------------------------------------------------
+[128] Distance: 2
+IMAGE 1: image1066.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1066.jpg
+IMAGE 2: image1586.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1586.jpg
+------------------------------------------------------------
+[129] Distance: 2
+IMAGE 1: image1066.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1066.jpg
+IMAGE 2: images40_jpg.rf.qIlTP5u7anM8x5xoO0nU.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images40_jpg.rf.qIlTP5u7anM8x5xoO0nU.jpg
+------------------------------------------------------------
+[130] Distance: 2
+IMAGE 1: image1069.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1069.jpg
+IMAGE 2: image780.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image780.jpg
+------------------------------------------------------------
+[131] Distance: 2
+IMAGE 1: image1070.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1070.jpg
+IMAGE 2: image280.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image280.jpg
+------------------------------------------------------------
+[132] Distance: 2
+IMAGE 1: image1075.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1075.jpg
+IMAGE 2: images8_jpg.rf.oBvbJLIRNLe1sCXa7mPf.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images8_jpg.rf.oBvbJLIRNLe1sCXa7mPf.jpg
+------------------------------------------------------------
+[133] Distance: 2
+IMAGE 1: image108.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image108.jpg
+IMAGE 2: image240.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image240.jpg
+------------------------------------------------------------
+[134] Distance: 2
+IMAGE 1: image1088.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1088.jpg
+IMAGE 2: img-359_jpg.rf.ef91YNWOC0bUnldqedvt.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-359_jpg.rf.ef91YNWOC0bUnldqedvt.jpg
+------------------------------------------------------------
+[135] Distance: 2
+IMAGE 1: image1107.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1107.jpg
+IMAGE 2: image149.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image149.jpg
+------------------------------------------------------------
+[136] Distance: 2
+IMAGE 1: image1119.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1119.jpg
+IMAGE 2: image581.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image581.jpg
+------------------------------------------------------------
+[137] Distance: 2
+IMAGE 1: image1126.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1126.jpg
+IMAGE 2: image1545.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1545.jpg
+------------------------------------------------------------
+[138] Distance: 2
+IMAGE 1: image1128.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1128.jpg
+IMAGE 2: image422.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image422.jpg
+------------------------------------------------------------
+[139] Distance: 2
+IMAGE 1: image1134.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1134.jpg
+IMAGE 2: img-437_jpg.rf.vHniqYhLEFlEtE1FJXqN.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-437_jpg.rf.vHniqYhLEFlEtE1FJXqN.jpg
+------------------------------------------------------------
+[140] Distance: 2
+IMAGE 1: image1150.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1150.jpg
+IMAGE 2: image498.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image498.jpg
+------------------------------------------------------------
+[141] Distance: 2
+IMAGE 1: image1155.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1155.jpg
+IMAGE 2: images52_jpg.rf.Htz7WuUwLvXYGMnJSNLC.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images52_jpg.rf.Htz7WuUwLvXYGMnJSNLC.jpg
+------------------------------------------------------------
+[142] Distance: 2
+IMAGE 1: image1165.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1165.jpg
+IMAGE 2: image261.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image261.jpg
+------------------------------------------------------------
+[143] Distance: 2
+IMAGE 1: image117.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image117.jpg
+IMAGE 2: image715.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image715.jpg
+------------------------------------------------------------
+[144] Distance: 2
+IMAGE 1: image1197.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1197.jpg
+IMAGE 2: image130.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image130.jpg
+------------------------------------------------------------
+[145] Distance: 2
+IMAGE 1: image125.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image125.jpg
+IMAGE 2: images27_jpg.rf.Wl8S3sh0yRU9tgZ2sHHx.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images27_jpg.rf.Wl8S3sh0yRU9tgZ2sHHx.jpg
+------------------------------------------------------------
+[146] Distance: 2
+IMAGE 1: image1251.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1251.jpg
+IMAGE 2: images219_jpg.rf.XAlKYNncXOHt6cw0nIlf.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images219_jpg.rf.XAlKYNncXOHt6cw0nIlf.jpg
+------------------------------------------------------------
+[147] Distance: 2
+IMAGE 1: image1258.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1258.jpg
+IMAGE 2: image1277.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1277.jpg
+------------------------------------------------------------
+[148] Distance: 2
+IMAGE 1: image1258.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1258.jpg
+IMAGE 2: image224.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image224.jpg
+------------------------------------------------------------
+[149] Distance: 2
+IMAGE 1: image1258.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1258.jpg
+IMAGE 2: image595.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image595.jpg
+------------------------------------------------------------
+[150] Distance: 2
+IMAGE 1: image1265.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1265.jpg
+IMAGE 2: img-504_jpg.rf.zU8gxT2ONZjzmnBCG0ir.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-504_jpg.rf.zU8gxT2ONZjzmnBCG0ir.jpg
+------------------------------------------------------------
+[151] Distance: 2
+IMAGE 1: image1277.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1277.jpg
+IMAGE 2: image1487.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1487.jpg
+------------------------------------------------------------
+[152] Distance: 2
+IMAGE 1: image1277.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1277.jpg
+IMAGE 2: image224.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image224.jpg
+------------------------------------------------------------
+[153] Distance: 2
+IMAGE 1: image1277.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1277.jpg
+IMAGE 2: image595.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image595.jpg
+------------------------------------------------------------
+[154] Distance: 2
+IMAGE 1: image1290.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1290.jpg
+IMAGE 2: images273_jpg.rf.ui2nPaXwr5gYVd4muBFj.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images273_jpg.rf.ui2nPaXwr5gYVd4muBFj.jpg
+------------------------------------------------------------
+[155] Distance: 2
+IMAGE 1: image1296.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1296.jpg
+IMAGE 2: img-589_jpg.rf.8Ca6gyqFpAuN1pHFYkhP.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-589_jpg.rf.8Ca6gyqFpAuN1pHFYkhP.jpg
+------------------------------------------------------------
+[156] Distance: 2
+IMAGE 1: image1300.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1300.jpg
+IMAGE 2: img-596_jpg.rf.2T8Bv6Bl1bkWsI4fh4aw.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-596_jpg.rf.2T8Bv6Bl1bkWsI4fh4aw.jpg
+------------------------------------------------------------
+[157] Distance: 2
+IMAGE 1: image1314.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1314.jpg
+IMAGE 2: image281.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image281.jpg
+------------------------------------------------------------
+[158] Distance: 2
+IMAGE 1: image1325.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1325.jpg
+IMAGE 2: img-638_jpg.rf.bhDoEjE029Ws7PHdPA5t.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-638_jpg.rf.bhDoEjE029Ws7PHdPA5t.jpg
+------------------------------------------------------------
+[159] Distance: 2
+IMAGE 1: image1328.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1328.jpg
+IMAGE 2: img-582_jpg.rf.HOQDUId1aXtDd5dff5Ip.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-582_jpg.rf.HOQDUId1aXtDd5dff5Ip.jpg
+------------------------------------------------------------
+[160] Distance: 2
+IMAGE 1: image1356.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1356.jpg
+IMAGE 2: image501.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image501.jpg
+------------------------------------------------------------
+[161] Distance: 2
+IMAGE 1: image1391.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1391.jpg
+IMAGE 2: img-498_jpg.rf.IuC4Pgo7EJYz1D6glFZv.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-498_jpg.rf.IuC4Pgo7EJYz1D6glFZv.jpg
+------------------------------------------------------------
+[162] Distance: 2
+IMAGE 1: image1399.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1399.jpg
+IMAGE 2: images88_jpg.rf.XqBsTKUBpe7jTs4vnPos.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images88_jpg.rf.XqBsTKUBpe7jTs4vnPos.jpg
+------------------------------------------------------------
+[163] Distance: 2
+IMAGE 1: image13_jpeg.rf.CemV0Vbz4gplQn632upk.jpeg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image13_jpeg.rf.CemV0Vbz4gplQn632upk.jpeg
+IMAGE 2: image1569.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1569.jpg
+------------------------------------------------------------
+[164] Distance: 2
+IMAGE 1: image1403.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1403.jpg
+IMAGE 2: img-549_jpg.rf.nb2dCNHGIev7JUpzIwOf.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-549_jpg.rf.nb2dCNHGIev7JUpzIwOf.jpg
+------------------------------------------------------------
+[165] Distance: 2
+IMAGE 1: image1403.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1403.jpg
+IMAGE 2: img_1787_jpg.rf.X8Vi6n49f8ePlPemEJ4T.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img_1787_jpg.rf.X8Vi6n49f8ePlPemEJ4T.jpg
+------------------------------------------------------------
+[166] Distance: 2
+IMAGE 1: image1409.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1409.jpg
+IMAGE 2: image532.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image532.jpg
+------------------------------------------------------------
+[167] Distance: 2
+IMAGE 1: image1429.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1429.jpg
+IMAGE 2: img-383_jpg.rf.mE8DDbasANavEEU1YcmU.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-383_jpg.rf.mE8DDbasANavEEU1YcmU.jpg
+------------------------------------------------------------
+[168] Distance: 2
+IMAGE 1: image1449.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1449.jpg
+IMAGE 2: img-323_jpg.rf.C1SwFhW75omJVN4vdk3i.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-323_jpg.rf.C1SwFhW75omJVN4vdk3i.jpg
+------------------------------------------------------------
+[169] Distance: 2
+IMAGE 1: image1468.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1468.jpg
+IMAGE 2: img-556_jpg.rf.qqaf9gcYlBcU3MvfvOkQ.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-556_jpg.rf.qqaf9gcYlBcU3MvfvOkQ.jpg
+------------------------------------------------------------
+[170] Distance: 2
+IMAGE 1: image147.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image147.jpg
+IMAGE 2: img-502_jpg.rf.lBSCXYsPwWVJeehcJGuJ.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-502_jpg.rf.lBSCXYsPwWVJeehcJGuJ.jpg
+------------------------------------------------------------
+[171] Distance: 2
+IMAGE 1: image1487.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1487.jpg
+IMAGE 2: image224.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image224.jpg
+------------------------------------------------------------
+[172] Distance: 2
+IMAGE 1: image1494.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1494.jpg
+IMAGE 2: img-516_jpg.rf.13ZnJMb4Pd7VmDmgmR3U.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-516_jpg.rf.13ZnJMb4Pd7VmDmgmR3U.jpg
+------------------------------------------------------------
+[173] Distance: 2
+IMAGE 1: image152.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image152.jpg
+IMAGE 2: img-429_jpg.rf.5XirTZnPQCklThNXstRg.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-429_jpg.rf.5XirTZnPQCklThNXstRg.jpg
+------------------------------------------------------------
+[174] Distance: 2
+IMAGE 1: image1539.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1539.jpg
+IMAGE 2: img-656_jpg.rf.CA3AKUv40VEqrjJpfl5g.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-656_jpg.rf.CA3AKUv40VEqrjJpfl5g.jpg
+------------------------------------------------------------
+[175] Distance: 2
+IMAGE 1: image1546.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1546.jpg
+IMAGE 2: img-436_jpg.rf.essYuNIRqcESAfJHpBRg.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-436_jpg.rf.essYuNIRqcESAfJHpBRg.jpg
+------------------------------------------------------------
+[176] Distance: 2
+IMAGE 1: image1586.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1586.jpg
+IMAGE 2: images40_jpg.rf.qIlTP5u7anM8x5xoO0nU.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images40_jpg.rf.qIlTP5u7anM8x5xoO0nU.jpg
+------------------------------------------------------------
+[177] Distance: 2
+IMAGE 1: image162.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image162.jpg
+IMAGE 2: images59_jpg.rf.UQU2nuUrpFtquXa0D5nv.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images59_jpg.rf.UQU2nuUrpFtquXa0D5nv.jpg
+------------------------------------------------------------
+[178] Distance: 2
+IMAGE 1: image179.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image179.jpg
+IMAGE 2: image290.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image290.jpg
+------------------------------------------------------------
+[179] Distance: 2
+IMAGE 1: image186.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image186.jpg
+IMAGE 2: img-606_jpg.rf.gksg0o6PJ8K1t6LjYRF0.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-606_jpg.rf.gksg0o6PJ8K1t6LjYRF0.jpg
+------------------------------------------------------------
+[180] Distance: 2
+IMAGE 1: image208.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image208.jpg
+IMAGE 2: image794.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image794.jpg
+------------------------------------------------------------
+[181] Distance: 2
+IMAGE 1: image214.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image214.jpg
+IMAGE 2: img-577_jpg.rf.o19zNwjLt2TEG4xIFEg5.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-577_jpg.rf.o19zNwjLt2TEG4xIFEg5.jpg
+------------------------------------------------------------
+[182] Distance: 2
+IMAGE 1: image242.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image242.jpg
+IMAGE 2: img-658_jpg.rf.CosesuA0NS5KTeP67gQS.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-658_jpg.rf.CosesuA0NS5KTeP67gQS.jpg
+------------------------------------------------------------
+[183] Distance: 2
+IMAGE 1: image260.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image260.jpg
+IMAGE 2: images5_jpg.rf.hDFMc0bsml0ac70uD3l6.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images5_jpg.rf.hDFMc0bsml0ac70uD3l6.jpg
+------------------------------------------------------------
+[184] Distance: 2
+IMAGE 1: image264.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image264.jpg
+IMAGE 2: image719.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image719.jpg
+------------------------------------------------------------
+[185] Distance: 2
+IMAGE 1: image290.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image290.jpg
+IMAGE 2: image847.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image847.jpg
+------------------------------------------------------------
+[186] Distance: 2
+IMAGE 1: image303.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image303.jpg
+IMAGE 2: image528.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image528.jpg
+------------------------------------------------------------
+[187] Distance: 2
+IMAGE 1: image320.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image320.jpg
+IMAGE 2: img-591_jpg.rf.RfVqWAATjuM5wHkjzjCI.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-591_jpg.rf.RfVqWAATjuM5wHkjzjCI.jpg
+------------------------------------------------------------
+[188] Distance: 2
+IMAGE 1: image336.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image336.jpg
+IMAGE 2: images141_jpg.rf.h4D99Co2G8EEGJKbueDV.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images141_jpg.rf.h4D99Co2G8EEGJKbueDV.jpg
+------------------------------------------------------------
+[189] Distance: 2
+IMAGE 1: image336.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image336.jpg
+IMAGE 2: img-514_jpg.rf.BVDemVLIg8MTmbvL3rpq.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-514_jpg.rf.BVDemVLIg8MTmbvL3rpq.jpg
+------------------------------------------------------------
+[190] Distance: 2
+IMAGE 1: image501.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image501.jpg
+IMAGE 2: image847.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image847.jpg
+------------------------------------------------------------
+[191] Distance: 2
+IMAGE 1: image547.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image547.jpg
+IMAGE 2: images44_jpg.rf.v2YYbKO89mBO0XJ80BvB.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images44_jpg.rf.v2YYbKO89mBO0XJ80BvB.jpg
+------------------------------------------------------------
+[192] Distance: 2
+IMAGE 1: image570.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image570.jpg
+IMAGE 2: images98_jpg.rf.hP0HLEn1wJqvLrawQGBW.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images98_jpg.rf.hP0HLEn1wJqvLrawQGBW.jpg
+------------------------------------------------------------
+[193] Distance: 2
+IMAGE 1: image607.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image607.jpg
+IMAGE 2: images221_jpg.rf.RdTQEvuHe8BEpHt4mZEG.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images221_jpg.rf.RdTQEvuHe8BEpHt4mZEG.jpg
+------------------------------------------------------------
+[194] Distance: 2
+IMAGE 1: image658.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image658.jpg
+IMAGE 2: img-396_jpg.rf.3bghl8oyktyzqZZeP8AV.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-396_jpg.rf.3bghl8oyktyzqZZeP8AV.jpg
+------------------------------------------------------------
+[195] Distance: 2
+IMAGE 1: image716.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image716.jpg
+IMAGE 2: image952.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image952.jpg
+------------------------------------------------------------
+[196] Distance: 2
+IMAGE 1: image72.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image72.jpg
+IMAGE 2: img-555_jpg.rf.zO4Aa4dQCrWYOoCqsQQl.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-555_jpg.rf.zO4Aa4dQCrWYOoCqsQQl.jpg
+------------------------------------------------------------
+[197] Distance: 2
+IMAGE 1: image777.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image777.jpg
+IMAGE 2: image804.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image804.jpg
+------------------------------------------------------------
+[198] Distance: 2
+IMAGE 1: image789.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image789.jpg
+IMAGE 2: img-421_jpg.rf.aHad6kQ4ao4RwqZjWEw0.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-421_jpg.rf.aHad6kQ4ao4RwqZjWEw0.jpg
+------------------------------------------------------------
+[199] Distance: 2
+IMAGE 1: image814.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image814.jpg
+IMAGE 2: images86_jpg.rf.zi49lAaNRwTcrR2nBpG8.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images86_jpg.rf.zi49lAaNRwTcrR2nBpG8.jpg
+------------------------------------------------------------
+[200] Distance: 2
+IMAGE 1: image868.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image868.jpg
+IMAGE 2: images70_jpg.rf.KqOby8LOf1CeTkol1eVk.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images70_jpg.rf.KqOby8LOf1CeTkol1eVk.jpg
+------------------------------------------------------------
+[201] Distance: 2
+IMAGE 1: image877.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image877.jpg
+IMAGE 2: images26_jpg.rf.STGEs0GXKyvySISwTjSO.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images26_jpg.rf.STGEs0GXKyvySISwTjSO.jpg
+------------------------------------------------------------
+[202] Distance: 2
+IMAGE 1: image888.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image888.jpg
+IMAGE 2: img-476_jpg.rf.Xa5aqZRRK5MCdEYG4DP0.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-476_jpg.rf.Xa5aqZRRK5MCdEYG4DP0.jpg
+------------------------------------------------------------
+[203] Distance: 2
+IMAGE 1: image910.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image910.jpg
+IMAGE 2: img-349_jpg.rf.RIJJbCY7BOkdt2hIPM07.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-349_jpg.rf.RIJJbCY7BOkdt2hIPM07.jpg
+------------------------------------------------------------
+[204] Distance: 2
+IMAGE 1: image918.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image918.jpg
+IMAGE 2: img-448_jpg.rf.0vxT488NXZsspU3J6qof.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-448_jpg.rf.0vxT488NXZsspU3J6qof.jpg
+------------------------------------------------------------
+[205] Distance: 2
+IMAGE 1: image919.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image919.jpg
+IMAGE 2: img-654_jpg.rf.CYbZD0Ce34HHCsxNySnR.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-654_jpg.rf.CYbZD0Ce34HHCsxNySnR.jpg
+------------------------------------------------------------
+[206] Distance: 2
+IMAGE 1: image942.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image942.jpg
+IMAGE 2: img-388_jpg.rf.ZFqnp3fsTvjLk7MDYcdb.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-388_jpg.rf.ZFqnp3fsTvjLk7MDYcdb.jpg
+------------------------------------------------------------
+[207] Distance: 2
+IMAGE 1: image945.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image945.jpg
+IMAGE 2: images332_jpg.rf.gIjcVkGZ0EDW8gQpG66U.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images332_jpg.rf.gIjcVkGZ0EDW8gQpG66U.jpg
+------------------------------------------------------------
+[208] Distance: 2
+IMAGE 1: image984.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image984.jpg
+IMAGE 2: img-538_jpg.rf.tF2LsHkFbBgT4duzypVE.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-538_jpg.rf.tF2LsHkFbBgT4duzypVE.jpg
+------------------------------------------------------------
+[209] Distance: 2
+IMAGE 1: images134_jpg.rf.dMKe3pXEa3Fq2jVCwzwo.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images134_jpg.rf.dMKe3pXEa3Fq2jVCwzwo.jpg
+IMAGE 2: img-639_jpg.rf.h6IZlOARXp6DRmwxQ6E0.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-639_jpg.rf.h6IZlOARXp6DRmwxQ6E0.jpg
+------------------------------------------------------------
+[210] Distance: 2
+IMAGE 1: images141_jpg.rf.h4D99Co2G8EEGJKbueDV.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images141_jpg.rf.h4D99Co2G8EEGJKbueDV.jpg
+IMAGE 2: img-514_jpg.rf.BVDemVLIg8MTmbvL3rpq.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-514_jpg.rf.BVDemVLIg8MTmbvL3rpq.jpg
+------------------------------------------------------------
+[211] Distance: 2
+IMAGE 1: images235_jpg.rf.KJdF1QMJICFIAos7qSR5.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images235_jpg.rf.KJdF1QMJICFIAos7qSR5.jpg
+IMAGE 2: mumbai-pothole-pti-1533105526_jpg.rf.jeLl8MmQ3ipV0TPLCS3G.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\mumbai-pothole-pti-1533105526_jpg.rf.jeLl8MmQ3ipV0TPLCS3G.jpg
+------------------------------------------------------------
+[212] Distance: 4
+IMAGE 1: 1005_png_jpg.rf.UX6b9y0UqnQd6NLUjq3A.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1005_png_jpg.rf.UX6b9y0UqnQd6NLUjq3A.jpg
+IMAGE 2: 1016_png_jpg.rf.4NAd2tqQpymkZ5nz8YJr.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1016_png_jpg.rf.4NAd2tqQpymkZ5nz8YJr.jpg
+------------------------------------------------------------
+[213] Distance: 4
+IMAGE 1: 1008_png_jpg.rf.ONA1fOjysrLOvTh5WDfg.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1008_png_jpg.rf.ONA1fOjysrLOvTh5WDfg.jpg
+IMAGE 2: 1008_png_jpg.rf.ZkIpM1USaXXTID1wUCQe.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1008_png_jpg.rf.ZkIpM1USaXXTID1wUCQe.jpg
+------------------------------------------------------------
+[214] Distance: 4
+IMAGE 1: 100_png_jpg.rf.715qFKcqEnPICsRqLMDx.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\100_png_jpg.rf.715qFKcqEnPICsRqLMDx.jpg
+IMAGE 2: 104_png_jpg.rf.kY1FiDVqX4X87TYpznj2.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\104_png_jpg.rf.kY1FiDVqX4X87TYpznj2.jpg
+------------------------------------------------------------
+[215] Distance: 4
+IMAGE 1: 100_png_jpg.rf.715qFKcqEnPICsRqLMDx.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\100_png_jpg.rf.715qFKcqEnPICsRqLMDx.jpg
+IMAGE 2: 20_png_jpg.rf.p1YE8OpTIxml2GCE3ikW.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\20_png_jpg.rf.p1YE8OpTIxml2GCE3ikW.jpg
+------------------------------------------------------------
+[216] Distance: 4
+IMAGE 1: 1011_png_jpg.rf.R7x23rfPs2fkyaq0faod.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1011_png_jpg.rf.R7x23rfPs2fkyaq0faod.jpg
+IMAGE 2: 1013_png_jpg.rf.MvQuoFCetVTXwuvPNf04.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1013_png_jpg.rf.MvQuoFCetVTXwuvPNf04.jpg
+------------------------------------------------------------
+[217] Distance: 4
+IMAGE 1: 1011_png_jpg.rf.R7x23rfPs2fkyaq0faod.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1011_png_jpg.rf.R7x23rfPs2fkyaq0faod.jpg
+IMAGE 2: 1017_png_jpg.rf.i13EtZlVz49ULGuDa3Uu.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1017_png_jpg.rf.i13EtZlVz49ULGuDa3Uu.jpg
+------------------------------------------------------------
+[218] Distance: 4
+IMAGE 1: 1011_png_jpg.rf.R7x23rfPs2fkyaq0faod.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1011_png_jpg.rf.R7x23rfPs2fkyaq0faod.jpg
+IMAGE 2: 1020_png_jpg.rf.0YeJEKasF9mwf3GXv2SM.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1020_png_jpg.rf.0YeJEKasF9mwf3GXv2SM.jpg
+------------------------------------------------------------
+[219] Distance: 4
+IMAGE 1: 1011_png_jpg.rf.R7x23rfPs2fkyaq0faod.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1011_png_jpg.rf.R7x23rfPs2fkyaq0faod.jpg
+IMAGE 2: 549_png_jpg.rf.yH61T24yuHaDpnOcKfZZ.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\549_png_jpg.rf.yH61T24yuHaDpnOcKfZZ.jpg
+------------------------------------------------------------
+[220] Distance: 4
+IMAGE 1: 1012_png_jpg.rf.6grHdo6sadvjhAj8bMLy.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1012_png_jpg.rf.6grHdo6sadvjhAj8bMLy.jpg
+IMAGE 2: 1018_png_jpg.rf.ybHhgBZgiELS8DgATL7C.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1018_png_jpg.rf.ybHhgBZgiELS8DgATL7C.jpg
+------------------------------------------------------------
+[221] Distance: 4
+IMAGE 1: 1013_png_jpg.rf.MvQuoFCetVTXwuvPNf04.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1013_png_jpg.rf.MvQuoFCetVTXwuvPNf04.jpg
+IMAGE 2: 1018_png_jpg.rf.ybHhgBZgiELS8DgATL7C.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1018_png_jpg.rf.ybHhgBZgiELS8DgATL7C.jpg
+------------------------------------------------------------
+[222] Distance: 4
+IMAGE 1: 1014_png_jpg.rf.xNq2EqZEfL2KnzYkOPtt.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1014_png_jpg.rf.xNq2EqZEfL2KnzYkOPtt.jpg
+IMAGE 2: 1018_png_jpg.rf.ybHhgBZgiELS8DgATL7C.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1018_png_jpg.rf.ybHhgBZgiELS8DgATL7C.jpg
+------------------------------------------------------------
+[223] Distance: 4
+IMAGE 1: 1014_png_jpg.rf.xNq2EqZEfL2KnzYkOPtt.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1014_png_jpg.rf.xNq2EqZEfL2KnzYkOPtt.jpg
+IMAGE 2: 1020_png_jpg.rf.0YeJEKasF9mwf3GXv2SM.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1020_png_jpg.rf.0YeJEKasF9mwf3GXv2SM.jpg
+------------------------------------------------------------
+[224] Distance: 4
+IMAGE 1: 1017_png_jpg.rf.i13EtZlVz49ULGuDa3Uu.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1017_png_jpg.rf.i13EtZlVz49ULGuDa3Uu.jpg
+IMAGE 2: 1018_png_jpg.rf.ybHhgBZgiELS8DgATL7C.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1018_png_jpg.rf.ybHhgBZgiELS8DgATL7C.jpg
+------------------------------------------------------------
+[225] Distance: 4
+IMAGE 1: 1018_png_jpg.rf.ybHhgBZgiELS8DgATL7C.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1018_png_jpg.rf.ybHhgBZgiELS8DgATL7C.jpg
+IMAGE 2: 549_png_jpg.rf.yH61T24yuHaDpnOcKfZZ.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\549_png_jpg.rf.yH61T24yuHaDpnOcKfZZ.jpg
+------------------------------------------------------------
+[226] Distance: 4
+IMAGE 1: 1020_png_jpg.rf.0YeJEKasF9mwf3GXv2SM.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1020_png_jpg.rf.0YeJEKasF9mwf3GXv2SM.jpg
+IMAGE 2: 1023_png_jpg.rf.GMRZ4x2yNgjQqfktpBE7.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1023_png_jpg.rf.GMRZ4x2yNgjQqfktpBE7.jpg
+------------------------------------------------------------
+[227] Distance: 4
+IMAGE 1: 1021_png_jpg.rf.ss4Cs1CeaZOikkkkSbMm.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1021_png_jpg.rf.ss4Cs1CeaZOikkkkSbMm.jpg
+IMAGE 2: 1024_png_jpg.rf.IR6A9v8pVnlyDxalYxNx.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1024_png_jpg.rf.IR6A9v8pVnlyDxalYxNx.jpg
+------------------------------------------------------------
+[228] Distance: 4
+IMAGE 1: 1023_png_jpg.rf.GMRZ4x2yNgjQqfktpBE7.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1023_png_jpg.rf.GMRZ4x2yNgjQqfktpBE7.jpg
+IMAGE 2: 1024_png_jpg.rf.IR6A9v8pVnlyDxalYxNx.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1024_png_jpg.rf.IR6A9v8pVnlyDxalYxNx.jpg
+------------------------------------------------------------
+[229] Distance: 4
+IMAGE 1: 1024_png_jpg.rf.IR6A9v8pVnlyDxalYxNx.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1024_png_jpg.rf.IR6A9v8pVnlyDxalYxNx.jpg
+IMAGE 2: 1025_png_jpg.rf.tgb8bnbcWqYnvOCNNFFL.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1025_png_jpg.rf.tgb8bnbcWqYnvOCNNFFL.jpg
+------------------------------------------------------------
+[230] Distance: 4
+IMAGE 1: 1026_png_jpg.rf.pqlumoUM7ytU4UeNEBsa.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1026_png_jpg.rf.pqlumoUM7ytU4UeNEBsa.jpg
+IMAGE 2: image269.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image269.jpg
+------------------------------------------------------------
+[231] Distance: 4
+IMAGE 1: 1027_png_jpg.rf.HghFtNjdlE3LM8gjuqnB.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1027_png_jpg.rf.HghFtNjdlE3LM8gjuqnB.jpg
+IMAGE 2: 1028_png_jpg.rf.sWXlvh7FtjUxUEpmuvwp.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1028_png_jpg.rf.sWXlvh7FtjUxUEpmuvwp.jpg
+------------------------------------------------------------
+[232] Distance: 4
+IMAGE 1: 1042_png_jpg.rf.yQZgkXf39Svt5CxS66PV.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1042_png_jpg.rf.yQZgkXf39Svt5CxS66PV.jpg
+IMAGE 2: 1044_png_jpg.rf.NTJz4YAlwkiMewa8zcWO.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1044_png_jpg.rf.NTJz4YAlwkiMewa8zcWO.jpg
+------------------------------------------------------------
+[233] Distance: 4
+IMAGE 1: 1043_png_jpg.rf.wkaYllKKuSTwVCIS1D7V.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1043_png_jpg.rf.wkaYllKKuSTwVCIS1D7V.jpg
+IMAGE 2: 1044_png_jpg.rf.NTJz4YAlwkiMewa8zcWO.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1044_png_jpg.rf.NTJz4YAlwkiMewa8zcWO.jpg
+------------------------------------------------------------
+[234] Distance: 4
+IMAGE 1: 1044_png_jpg.rf.NTJz4YAlwkiMewa8zcWO.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1044_png_jpg.rf.NTJz4YAlwkiMewa8zcWO.jpg
+IMAGE 2: 1046_png_jpg.rf.F7Q7yHnISqFOXXnvsv77.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1046_png_jpg.rf.F7Q7yHnISqFOXXnvsv77.jpg
+------------------------------------------------------------
+[235] Distance: 4
+IMAGE 1: 1045_png_jpg.rf.TSKa4wyDeZ0Ea7YFeUG4.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1045_png_jpg.rf.TSKa4wyDeZ0Ea7YFeUG4.jpg
+IMAGE 2: 1046_png_jpg.rf.F7Q7yHnISqFOXXnvsv77.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1046_png_jpg.rf.F7Q7yHnISqFOXXnvsv77.jpg
+------------------------------------------------------------
+[236] Distance: 4
+IMAGE 1: 1047_png_jpg.rf.BmJMOU34KtGGCoK7ACya.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1047_png_jpg.rf.BmJMOU34KtGGCoK7ACya.jpg
+IMAGE 2: image269.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image269.jpg
+------------------------------------------------------------
+[237] Distance: 4
+IMAGE 1: 1061_png_jpg.rf.YDFwmbIK0FFU2TDcTIYB.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1061_png_jpg.rf.YDFwmbIK0FFU2TDcTIYB.jpg
+IMAGE 2: 1062_png_jpg.rf.w7b1WiGUk4MaUPNJrobK.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1062_png_jpg.rf.w7b1WiGUk4MaUPNJrobK.jpg
+------------------------------------------------------------
+[238] Distance: 4
+IMAGE 1: 1079_png_jpg.rf.Yz9PGTTFanERSsAKylIJ.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1079_png_jpg.rf.Yz9PGTTFanERSsAKylIJ.jpg
+IMAGE 2: 1081_png_jpg.rf.gmEqF90spkldJ89h3yVX.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1081_png_jpg.rf.gmEqF90spkldJ89h3yVX.jpg
+------------------------------------------------------------
+[239] Distance: 4
+IMAGE 1: 1079_png_jpg.rf.Yz9PGTTFanERSsAKylIJ.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1079_png_jpg.rf.Yz9PGTTFanERSsAKylIJ.jpg
+IMAGE 2: image830.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image830.jpg
+------------------------------------------------------------
+[240] Distance: 4
+IMAGE 1: 1080_png_jpg.rf.Q7QbOL6eYsDqKb5pP3Wm.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1080_png_jpg.rf.Q7QbOL6eYsDqKb5pP3Wm.jpg
+IMAGE 2: 1081_png_jpg.rf.gmEqF90spkldJ89h3yVX.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1081_png_jpg.rf.gmEqF90spkldJ89h3yVX.jpg
+------------------------------------------------------------
+[241] Distance: 4
+IMAGE 1: 1082_png_jpg.rf.hzH4N08eCrWTURdOUwCs.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1082_png_jpg.rf.hzH4N08eCrWTURdOUwCs.jpg
+IMAGE 2: image830.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image830.jpg
+------------------------------------------------------------
+[242] Distance: 4
+IMAGE 1: 1083_png_jpg.rf.PkSzmxWh42GCnu61yN2D.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1083_png_jpg.rf.PkSzmxWh42GCnu61yN2D.jpg
+IMAGE 2: 1084_png_jpg.rf.G8h3OBm9QSyxrazXe9P4.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1084_png_jpg.rf.G8h3OBm9QSyxrazXe9P4.jpg
+------------------------------------------------------------
+[243] Distance: 4
+IMAGE 1: 1086_png_jpg.rf.JMXKZ817DLQ4nRBFFuwT.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1086_png_jpg.rf.JMXKZ817DLQ4nRBFFuwT.jpg
+IMAGE 2: 1087_png_jpg.rf.WaQsMKMyj6Moasnw6MG1.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1087_png_jpg.rf.WaQsMKMyj6Moasnw6MG1.jpg
+------------------------------------------------------------
+[244] Distance: 4
+IMAGE 1: 1089_png_jpg.rf.RmHeDp0qjHdla5A3WcLQ.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1089_png_jpg.rf.RmHeDp0qjHdla5A3WcLQ.jpg
+IMAGE 2: 1097_png_jpg.rf.j4ZOb4LcFIv5vz8vpum4.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1097_png_jpg.rf.j4ZOb4LcFIv5vz8vpum4.jpg
+------------------------------------------------------------
+[245] Distance: 4
+IMAGE 1: 1092_png_jpg.rf.qVSiNyRD8bg5IvbNGYpn.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1092_png_jpg.rf.qVSiNyRD8bg5IvbNGYpn.jpg
+IMAGE 2: 1093_png_jpg.rf.oYIYHdqEpFHqEIYu4hBI.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\1093_png_jpg.rf.oYIYHdqEpFHqEIYu4hBI.jpg
+------------------------------------------------------------
+[246] Distance: 4
+IMAGE 1: 118_png_jpg.rf.NeCzbjYfyc0WFK3sPiIm.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\118_png_jpg.rf.NeCzbjYfyc0WFK3sPiIm.jpg
+IMAGE 2: 20_png_jpg.rf.p1YE8OpTIxml2GCE3ikW.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\20_png_jpg.rf.p1YE8OpTIxml2GCE3ikW.jpg
+------------------------------------------------------------
+[247] Distance: 4
+IMAGE 1: 121_png_jpg.rf.xwwSITDDkyfQyIH9e0yD.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\121_png_jpg.rf.xwwSITDDkyfQyIH9e0yD.jpg
+IMAGE 2: 166_png_jpg.rf.ghNAMgHZFmWoMk57cyr0.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\166_png_jpg.rf.ghNAMgHZFmWoMk57cyr0.jpg
+------------------------------------------------------------
+[248] Distance: 4
+IMAGE 1: 121_png_jpg.rf.xwwSITDDkyfQyIH9e0yD.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\121_png_jpg.rf.xwwSITDDkyfQyIH9e0yD.jpg
+IMAGE 2: 168_png_jpg.rf.GV7ht5EQYtYorkzX6M3c.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\168_png_jpg.rf.GV7ht5EQYtYorkzX6M3c.jpg
+------------------------------------------------------------
+[249] Distance: 4
+IMAGE 1: 158_png_jpg.rf.G0F7IgL1yyTIpztK4ZVK.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\158_png_jpg.rf.G0F7IgL1yyTIpztK4ZVK.jpg
+IMAGE 2: 159_png_jpg.rf.pDHqtwKvKbTrCnmwvtPZ.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\159_png_jpg.rf.pDHqtwKvKbTrCnmwvtPZ.jpg
+------------------------------------------------------------
+[250] Distance: 4
+IMAGE 1: 160_png_jpg.rf.3xBn811ALzQj3uOkx2eM.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\160_png_jpg.rf.3xBn811ALzQj3uOkx2eM.jpg
+IMAGE 2: 161_png_jpg.rf.50RLWBpEWuViu3xTl8zH.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\161_png_jpg.rf.50RLWBpEWuViu3xTl8zH.jpg
+------------------------------------------------------------
+[251] Distance: 4
+IMAGE 1: 161_png_jpg.rf.50RLWBpEWuViu3xTl8zH.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\161_png_jpg.rf.50RLWBpEWuViu3xTl8zH.jpg
+IMAGE 2: 162_png_jpg.rf.zM2wlk4nIT8kgn5idPZn.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\162_png_jpg.rf.zM2wlk4nIT8kgn5idPZn.jpg
+------------------------------------------------------------
+[252] Distance: 4
+IMAGE 1: 161_png_jpg.rf.50RLWBpEWuViu3xTl8zH.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\161_png_jpg.rf.50RLWBpEWuViu3xTl8zH.jpg
+IMAGE 2: 163_png_jpg.rf.mxd19LgykRa39LqGSMCb.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\163_png_jpg.rf.mxd19LgykRa39LqGSMCb.jpg
+------------------------------------------------------------
+[253] Distance: 4
+IMAGE 1: 161_png_jpg.rf.50RLWBpEWuViu3xTl8zH.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\161_png_jpg.rf.50RLWBpEWuViu3xTl8zH.jpg
+IMAGE 2: 166_png_jpg.rf.ghNAMgHZFmWoMk57cyr0.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\166_png_jpg.rf.ghNAMgHZFmWoMk57cyr0.jpg
+------------------------------------------------------------
+[254] Distance: 4
+IMAGE 1: 162_png_jpg.rf.zM2wlk4nIT8kgn5idPZn.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\162_png_jpg.rf.zM2wlk4nIT8kgn5idPZn.jpg
+IMAGE 2: 165_png_jpg.rf.VaSKwA6yrFPTW81mbtlc.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\165_png_jpg.rf.VaSKwA6yrFPTW81mbtlc.jpg
+------------------------------------------------------------
+[255] Distance: 4
+IMAGE 1: 162_png_jpg.rf.zM2wlk4nIT8kgn5idPZn.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\162_png_jpg.rf.zM2wlk4nIT8kgn5idPZn.jpg
+IMAGE 2: 166_png_jpg.rf.ghNAMgHZFmWoMk57cyr0.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\166_png_jpg.rf.ghNAMgHZFmWoMk57cyr0.jpg
+------------------------------------------------------------
+[256] Distance: 4
+IMAGE 1: 163_png_jpg.rf.mxd19LgykRa39LqGSMCb.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\163_png_jpg.rf.mxd19LgykRa39LqGSMCb.jpg
+IMAGE 2: 167_png_jpg.rf.gOFrmq1u7WUimI4nwNRT.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\167_png_jpg.rf.gOFrmq1u7WUimI4nwNRT.jpg
+------------------------------------------------------------
+[257] Distance: 4
+IMAGE 1: 163_png_jpg.rf.mxd19LgykRa39LqGSMCb.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\163_png_jpg.rf.mxd19LgykRa39LqGSMCb.jpg
+IMAGE 2: 170_png_jpg.rf.9lrUBY0MCvzO0GCC6kvA.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\170_png_jpg.rf.9lrUBY0MCvzO0GCC6kvA.jpg
+------------------------------------------------------------
+[258] Distance: 4
+IMAGE 1: 165_png_jpg.rf.VaSKwA6yrFPTW81mbtlc.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\165_png_jpg.rf.VaSKwA6yrFPTW81mbtlc.jpg
+IMAGE 2: 167_png_jpg.rf.gOFrmq1u7WUimI4nwNRT.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\167_png_jpg.rf.gOFrmq1u7WUimI4nwNRT.jpg
+------------------------------------------------------------
+[259] Distance: 4
+IMAGE 1: 165_png_jpg.rf.VaSKwA6yrFPTW81mbtlc.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\165_png_jpg.rf.VaSKwA6yrFPTW81mbtlc.jpg
+IMAGE 2: 168_png_jpg.rf.GV7ht5EQYtYorkzX6M3c.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\168_png_jpg.rf.GV7ht5EQYtYorkzX6M3c.jpg
+------------------------------------------------------------
+[260] Distance: 4
+IMAGE 1: 16_png_jpg.rf.TDS4pFEFyAR2FYYibS9M.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\16_png_jpg.rf.TDS4pFEFyAR2FYYibS9M.jpg
+IMAGE 2: 18_png_jpg.rf.msRLhsJO9xIEpHDFw4Ec.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\18_png_jpg.rf.msRLhsJO9xIEpHDFw4Ec.jpg
+------------------------------------------------------------
+[261] Distance: 4
+IMAGE 1: 172_png_jpg.rf.Gyyjagk4NYhmHcNzUDJN.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\172_png_jpg.rf.Gyyjagk4NYhmHcNzUDJN.jpg
+IMAGE 2: 173_png_jpg.rf.SALriJ7Xyvi5WTHubyru.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\173_png_jpg.rf.SALriJ7Xyvi5WTHubyru.jpg
+------------------------------------------------------------
+[262] Distance: 4
+IMAGE 1: 17_png_jpg.rf.733eN2OIrmss9We2NSMH.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\17_png_jpg.rf.733eN2OIrmss9We2NSMH.jpg
+IMAGE 2: 20_png_jpg.rf.p1YE8OpTIxml2GCE3ikW.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\20_png_jpg.rf.p1YE8OpTIxml2GCE3ikW.jpg
+------------------------------------------------------------
+[263] Distance: 4
+IMAGE 1: 18_png_jpg.rf.msRLhsJO9xIEpHDFw4Ec.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\18_png_jpg.rf.msRLhsJO9xIEpHDFw4Ec.jpg
+IMAGE 2: 20_png_jpg.rf.p1YE8OpTIxml2GCE3ikW.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\20_png_jpg.rf.p1YE8OpTIxml2GCE3ikW.jpg
+------------------------------------------------------------
+[264] Distance: 4
+IMAGE 1: 219_png_jpg.rf.zGmKj0JrYqW5TNBCTvJ6.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\219_png_jpg.rf.zGmKj0JrYqW5TNBCTvJ6.jpg
+IMAGE 2: 220_png_jpg.rf.HsAO1TYAbTrpNLcKiZwH.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\220_png_jpg.rf.HsAO1TYAbTrpNLcKiZwH.jpg
+------------------------------------------------------------
+[265] Distance: 4
+IMAGE 1: 220_png_jpg.rf.HsAO1TYAbTrpNLcKiZwH.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\220_png_jpg.rf.HsAO1TYAbTrpNLcKiZwH.jpg
+IMAGE 2: 221_png_jpg.rf.hcG6Ja7QqRy6D72OreGd.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\221_png_jpg.rf.hcG6Ja7QqRy6D72OreGd.jpg
+------------------------------------------------------------
+[266] Distance: 4
+IMAGE 1: 220_png_jpg.rf.HsAO1TYAbTrpNLcKiZwH.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\220_png_jpg.rf.HsAO1TYAbTrpNLcKiZwH.jpg
+IMAGE 2: 222_png_jpg.rf.dR9f5STanInENoSKxl3t.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\222_png_jpg.rf.dR9f5STanInENoSKxl3t.jpg
+------------------------------------------------------------
+[267] Distance: 4
+IMAGE 1: 221_png_jpg.rf.hcG6Ja7QqRy6D72OreGd.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\221_png_jpg.rf.hcG6Ja7QqRy6D72OreGd.jpg
+IMAGE 2: 222_png_jpg.rf.dR9f5STanInENoSKxl3t.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\222_png_jpg.rf.dR9f5STanInENoSKxl3t.jpg
+------------------------------------------------------------
+[268] Distance: 4
+IMAGE 1: 221_png_jpg.rf.hcG6Ja7QqRy6D72OreGd.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\221_png_jpg.rf.hcG6Ja7QqRy6D72OreGd.jpg
+IMAGE 2: 223_png_jpg.rf.u5I4XTOEBsY1qfUDvCWD.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\223_png_jpg.rf.u5I4XTOEBsY1qfUDvCWD.jpg
+------------------------------------------------------------
+[269] Distance: 4
+IMAGE 1: 222_png_jpg.rf.dR9f5STanInENoSKxl3t.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\222_png_jpg.rf.dR9f5STanInENoSKxl3t.jpg
+IMAGE 2: 223_png_jpg.rf.u5I4XTOEBsY1qfUDvCWD.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\223_png_jpg.rf.u5I4XTOEBsY1qfUDvCWD.jpg
+------------------------------------------------------------
+[270] Distance: 4
+IMAGE 1: 222_png_jpg.rf.dR9f5STanInENoSKxl3t.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\222_png_jpg.rf.dR9f5STanInENoSKxl3t.jpg
+IMAGE 2: image1383.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1383.jpg
+------------------------------------------------------------
+[271] Distance: 4
+IMAGE 1: 223_png_jpg.rf.u5I4XTOEBsY1qfUDvCWD.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\223_png_jpg.rf.u5I4XTOEBsY1qfUDvCWD.jpg
+IMAGE 2: 224_png_jpg.rf.2wobdy6YvAB0zeX0mnEf.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\224_png_jpg.rf.2wobdy6YvAB0zeX0mnEf.jpg
+------------------------------------------------------------
+[272] Distance: 4
+IMAGE 1: 223_png_jpg.rf.u5I4XTOEBsY1qfUDvCWD.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\223_png_jpg.rf.u5I4XTOEBsY1qfUDvCWD.jpg
+IMAGE 2: image1383.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1383.jpg
+------------------------------------------------------------
+[273] Distance: 4
+IMAGE 1: 254_png_jpg.rf.ugUr63bcuIsDoH6i2X8Q.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\254_png_jpg.rf.ugUr63bcuIsDoH6i2X8Q.jpg
+IMAGE 2: 255_png_jpg.rf.QRImFg6O2COvJuGt0Aaz.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\255_png_jpg.rf.QRImFg6O2COvJuGt0Aaz.jpg
+------------------------------------------------------------
+[274] Distance: 4
+IMAGE 1: 300px-Newport_Whitepit_Lane_pot_hole-JPG_jpg.rf.LZlhB3RwLfXYLSob6tZE.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\300px-Newport_Whitepit_Lane_pot_hole-JPG_jpg.rf.LZlhB3RwLfXYLSob6tZE.jpg
+IMAGE 2: image1418.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1418.jpg
+------------------------------------------------------------
+[275] Distance: 4
+IMAGE 1: 379_png_jpg.rf.EWwZvXHkVDIxtXGFNUD1.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\379_png_jpg.rf.EWwZvXHkVDIxtXGFNUD1.jpg
+IMAGE 2: 381_png_jpg.rf.METztgGIX5k3RvxvzkBs.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\381_png_jpg.rf.METztgGIX5k3RvxvzkBs.jpg
+------------------------------------------------------------
+[276] Distance: 4
+IMAGE 1: 380_png_jpg.rf.49U6Ybl1MJMIKexrw6LX.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\380_png_jpg.rf.49U6Ybl1MJMIKexrw6LX.jpg
+IMAGE 2: 381_png_jpg.rf.METztgGIX5k3RvxvzkBs.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\381_png_jpg.rf.METztgGIX5k3RvxvzkBs.jpg
+------------------------------------------------------------
+[277] Distance: 4
+IMAGE 1: 381_png_jpg.rf.METztgGIX5k3RvxvzkBs.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\381_png_jpg.rf.METztgGIX5k3RvxvzkBs.jpg
+IMAGE 2: 382_png_jpg.rf.ctcznFb0SmpfGxmDAnZX.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\382_png_jpg.rf.ctcznFb0SmpfGxmDAnZX.jpg
+------------------------------------------------------------
+[278] Distance: 4
+IMAGE 1: 382_png_jpg.rf.ctcznFb0SmpfGxmDAnZX.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\382_png_jpg.rf.ctcznFb0SmpfGxmDAnZX.jpg
+IMAGE 2: 383_png_jpg.rf.hgF0REbewMyVE8Ht6LK2.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\383_png_jpg.rf.hgF0REbewMyVE8Ht6LK2.jpg
+------------------------------------------------------------
+[279] Distance: 4
+IMAGE 1: 384_png_jpg.rf.pX8jCvk15CyBIthqTl4W.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\384_png_jpg.rf.pX8jCvk15CyBIthqTl4W.jpg
+IMAGE 2: 385_png_jpg.rf.mZg4xM8h6FLOQWPfC0OY.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\385_png_jpg.rf.mZg4xM8h6FLOQWPfC0OY.jpg
+------------------------------------------------------------
+[280] Distance: 4
+IMAGE 1: 387_png_jpg.rf.t3AVWCnnvdl7OE2tEpPC.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\387_png_jpg.rf.t3AVWCnnvdl7OE2tEpPC.jpg
+IMAGE 2: 389_png_jpg.rf.vInn1IqbpuwzvepIVvNO.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\389_png_jpg.rf.vInn1IqbpuwzvepIVvNO.jpg
+------------------------------------------------------------
+[281] Distance: 4
+IMAGE 1: 390_png_jpg.rf.j44JS2MerNN3sCmL1c0o.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\390_png_jpg.rf.j44JS2MerNN3sCmL1c0o.jpg
+IMAGE 2: 391_png_jpg.rf.Gox1lCF4t2juXUsgLBGS.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\391_png_jpg.rf.Gox1lCF4t2juXUsgLBGS.jpg
+------------------------------------------------------------
+[282] Distance: 4
+IMAGE 1: 391_png_jpg.rf.Gox1lCF4t2juXUsgLBGS.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\391_png_jpg.rf.Gox1lCF4t2juXUsgLBGS.jpg
+IMAGE 2: 392_png_jpg.rf.3nVLM1mGKZal5JsMYuH4.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\392_png_jpg.rf.3nVLM1mGKZal5JsMYuH4.jpg
+------------------------------------------------------------
+[283] Distance: 4
+IMAGE 1: 394_png_jpg.rf.Rt4zyFYmOMJ9ncQIUCeM.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\394_png_jpg.rf.Rt4zyFYmOMJ9ncQIUCeM.jpg
+IMAGE 2: 395_png_jpg.rf.7MfQCX5h8CnWKSCE8mQZ.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\395_png_jpg.rf.7MfQCX5h8CnWKSCE8mQZ.jpg
+------------------------------------------------------------
+[284] Distance: 4
+IMAGE 1: 394_png_jpg.rf.Rt4zyFYmOMJ9ncQIUCeM.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\394_png_jpg.rf.Rt4zyFYmOMJ9ncQIUCeM.jpg
+IMAGE 2: image1360.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1360.jpg
+------------------------------------------------------------
+[285] Distance: 4
+IMAGE 1: 395_png_jpg.rf.7MfQCX5h8CnWKSCE8mQZ.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\395_png_jpg.rf.7MfQCX5h8CnWKSCE8mQZ.jpg
+IMAGE 2: 396_png_jpg.rf.vl3VOhatIwI7dK6EHHlC.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\396_png_jpg.rf.vl3VOhatIwI7dK6EHHlC.jpg
+------------------------------------------------------------
+[286] Distance: 4
+IMAGE 1: 395_png_jpg.rf.7MfQCX5h8CnWKSCE8mQZ.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\395_png_jpg.rf.7MfQCX5h8CnWKSCE8mQZ.jpg
+IMAGE 2: 397_png_jpg.rf.cHWL9oF66uKPiBQ8TKyz.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\397_png_jpg.rf.cHWL9oF66uKPiBQ8TKyz.jpg
+------------------------------------------------------------
+[287] Distance: 4
+IMAGE 1: 402_png_jpg.rf.KMa9Opfc9LN8VPXyojZI.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\402_png_jpg.rf.KMa9Opfc9LN8VPXyojZI.jpg
+IMAGE 2: 404_png_jpg.rf.bIIvXfnvDaRhr3VPVG23.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\404_png_jpg.rf.bIIvXfnvDaRhr3VPVG23.jpg
+------------------------------------------------------------
+[288] Distance: 4
+IMAGE 1: 404_png_jpg.rf.bIIvXfnvDaRhr3VPVG23.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\404_png_jpg.rf.bIIvXfnvDaRhr3VPVG23.jpg
+IMAGE 2: 405_png_jpg.rf.3Ut4d2TktyC0qEYRD11u.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\405_png_jpg.rf.3Ut4d2TktyC0qEYRD11u.jpg
+------------------------------------------------------------
+[289] Distance: 4
+IMAGE 1: 416_png_jpg.rf.o627ZzEv9hP09jkT0FbT.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\416_png_jpg.rf.o627ZzEv9hP09jkT0FbT.jpg
+IMAGE 2: 418_png_jpg.rf.d2Gs4a11uKJEzKWgaOyl.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\418_png_jpg.rf.d2Gs4a11uKJEzKWgaOyl.jpg
+------------------------------------------------------------
+[290] Distance: 4
+IMAGE 1: 431_png_jpg.rf.x8Zyc8rmEveUvunEHqaR.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\431_png_jpg.rf.x8Zyc8rmEveUvunEHqaR.jpg
+IMAGE 2: 433_png_jpg.rf.pNjY7FCb0t1nmPgY8m6l.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\433_png_jpg.rf.pNjY7FCb0t1nmPgY8m6l.jpg
+------------------------------------------------------------
+[291] Distance: 4
+IMAGE 1: 432_png_jpg.rf.mRJIdRioW3tNSM8YjsRG.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\432_png_jpg.rf.mRJIdRioW3tNSM8YjsRG.jpg
+IMAGE 2: 434_png_jpg.rf.vAye8HrXrG9zpaeQ2nko.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\434_png_jpg.rf.vAye8HrXrG9zpaeQ2nko.jpg
+------------------------------------------------------------
+[292] Distance: 4
+IMAGE 1: 434_png_jpg.rf.vAye8HrXrG9zpaeQ2nko.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\434_png_jpg.rf.vAye8HrXrG9zpaeQ2nko.jpg
+IMAGE 2: 435_png_jpg.rf.0Z8D8HZ37lttFtsNWlt8.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\435_png_jpg.rf.0Z8D8HZ37lttFtsNWlt8.jpg
+------------------------------------------------------------
+[293] Distance: 4
+IMAGE 1: 434_png_jpg.rf.vAye8HrXrG9zpaeQ2nko.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\434_png_jpg.rf.vAye8HrXrG9zpaeQ2nko.jpg
+IMAGE 2: image477.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image477.jpg
+------------------------------------------------------------
+[294] Distance: 4
+IMAGE 1: 438_png_jpg.rf.9YTgWO67ivbbtvHq4o0e.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\438_png_jpg.rf.9YTgWO67ivbbtvHq4o0e.jpg
+IMAGE 2: image477.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image477.jpg
+------------------------------------------------------------
+[295] Distance: 4
+IMAGE 1: 444_png_jpg.rf.N771hXLMZA7BOtXbBky1.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\444_png_jpg.rf.N771hXLMZA7BOtXbBky1.jpg
+IMAGE 2: 446_png_jpg.rf.ZtohKs3xuUgKuwBCFIrt.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\446_png_jpg.rf.ZtohKs3xuUgKuwBCFIrt.jpg
+------------------------------------------------------------
+[296] Distance: 4
+IMAGE 1: 446_png_jpg.rf.ZtohKs3xuUgKuwBCFIrt.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\446_png_jpg.rf.ZtohKs3xuUgKuwBCFIrt.jpg
+IMAGE 2: 447_png_jpg.rf.967RAwipmpCictxHrwZB.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\447_png_jpg.rf.967RAwipmpCictxHrwZB.jpg
+------------------------------------------------------------
+[297] Distance: 4
+IMAGE 1: 447_png_jpg.rf.967RAwipmpCictxHrwZB.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\447_png_jpg.rf.967RAwipmpCictxHrwZB.jpg
+IMAGE 2: 448_png_jpg.rf.KzOpn1XzK3xp1Ok5mdLs.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\448_png_jpg.rf.KzOpn1XzK3xp1Ok5mdLs.jpg
+------------------------------------------------------------
+[298] Distance: 4
+IMAGE 1: 448_png_jpg.rf.KzOpn1XzK3xp1Ok5mdLs.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\448_png_jpg.rf.KzOpn1XzK3xp1Ok5mdLs.jpg
+IMAGE 2: 450_png_jpg.rf.Fq8ZksD8UApyVqM4Ko9Q.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\450_png_jpg.rf.Fq8ZksD8UApyVqM4Ko9Q.jpg
+------------------------------------------------------------
+[299] Distance: 4
+IMAGE 1: 449_png_jpg.rf.FOI2xuxRb13OlSdarfep.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\449_png_jpg.rf.FOI2xuxRb13OlSdarfep.jpg
+IMAGE 2: 450_png_jpg.rf.Fq8ZksD8UApyVqM4Ko9Q.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\450_png_jpg.rf.Fq8ZksD8UApyVqM4Ko9Q.jpg
+------------------------------------------------------------
+[300] Distance: 4
+IMAGE 1: 450_png_jpg.rf.Fq8ZksD8UApyVqM4Ko9Q.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\450_png_jpg.rf.Fq8ZksD8UApyVqM4Ko9Q.jpg
+IMAGE 2: image840.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image840.jpg
+------------------------------------------------------------
+[301] Distance: 4
+IMAGE 1: 454_png_jpg.rf.r3psTI6PTxXUcHBJCMRx.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\454_png_jpg.rf.r3psTI6PTxXUcHBJCMRx.jpg
+IMAGE 2: 455_png_jpg.rf.DQ6IF0vFL2TkeZe4nfDT.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\455_png_jpg.rf.DQ6IF0vFL2TkeZe4nfDT.jpg
+------------------------------------------------------------
+[302] Distance: 4
+IMAGE 1: 455_png_jpg.rf.DQ6IF0vFL2TkeZe4nfDT.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\455_png_jpg.rf.DQ6IF0vFL2TkeZe4nfDT.jpg
+IMAGE 2: 459_png_jpg.rf.ygdmKiN6lx6HQwLVh1ME.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\459_png_jpg.rf.ygdmKiN6lx6HQwLVh1ME.jpg
+------------------------------------------------------------
+[303] Distance: 4
+IMAGE 1: 455_png_jpg.rf.DQ6IF0vFL2TkeZe4nfDT.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\455_png_jpg.rf.DQ6IF0vFL2TkeZe4nfDT.jpg
+IMAGE 2: 461_png_jpg.rf.UElWjtoA8LnCOCx6IxTT.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\461_png_jpg.rf.UElWjtoA8LnCOCx6IxTT.jpg
+------------------------------------------------------------
+[304] Distance: 4
+IMAGE 1: 457_png_jpg.rf.7rh81nkPFf609SgoEGRV.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\457_png_jpg.rf.7rh81nkPFf609SgoEGRV.jpg
+IMAGE 2: 461_png_jpg.rf.UElWjtoA8LnCOCx6IxTT.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\461_png_jpg.rf.UElWjtoA8LnCOCx6IxTT.jpg
+------------------------------------------------------------
+[305] Distance: 4
+IMAGE 1: 459_png_jpg.rf.ygdmKiN6lx6HQwLVh1ME.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\459_png_jpg.rf.ygdmKiN6lx6HQwLVh1ME.jpg
+IMAGE 2: 461_png_jpg.rf.UElWjtoA8LnCOCx6IxTT.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\461_png_jpg.rf.UElWjtoA8LnCOCx6IxTT.jpg
+------------------------------------------------------------
+[306] Distance: 4
+IMAGE 1: 459_png_jpg.rf.ygdmKiN6lx6HQwLVh1ME.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\459_png_jpg.rf.ygdmKiN6lx6HQwLVh1ME.jpg
+IMAGE 2: 462_png_jpg.rf.9NJ43rUynOeqTp9QbuRI.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\462_png_jpg.rf.9NJ43rUynOeqTp9QbuRI.jpg
+------------------------------------------------------------
+[307] Distance: 4
+IMAGE 1: 461_png_jpg.rf.UElWjtoA8LnCOCx6IxTT.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\461_png_jpg.rf.UElWjtoA8LnCOCx6IxTT.jpg
+IMAGE 2: 462_png_jpg.rf.9NJ43rUynOeqTp9QbuRI.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\462_png_jpg.rf.9NJ43rUynOeqTp9QbuRI.jpg
+------------------------------------------------------------
+[308] Distance: 4
+IMAGE 1: 461_png_jpg.rf.UElWjtoA8LnCOCx6IxTT.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\461_png_jpg.rf.UElWjtoA8LnCOCx6IxTT.jpg
+IMAGE 2: image131.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image131.jpg
+------------------------------------------------------------
+[309] Distance: 4
+IMAGE 1: 473_png_jpg.rf.CKHLcqWShM4neZePn9uJ.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\473_png_jpg.rf.CKHLcqWShM4neZePn9uJ.jpg
+IMAGE 2: image140.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image140.jpg
+------------------------------------------------------------
+[310] Distance: 4
+IMAGE 1: 483_png_jpg.rf.tRvTpXf7ZbcI9Yvu5Goh.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\483_png_jpg.rf.tRvTpXf7ZbcI9Yvu5Goh.jpg
+IMAGE 2: 485_png_jpg.rf.WWPHEdOcxZzb9i3LMx8W.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\485_png_jpg.rf.WWPHEdOcxZzb9i3LMx8W.jpg
+------------------------------------------------------------
+[311] Distance: 4
+IMAGE 1: 483_png_jpg.rf.tRvTpXf7ZbcI9Yvu5Goh.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\483_png_jpg.rf.tRvTpXf7ZbcI9Yvu5Goh.jpg
+IMAGE 2: 486_png_jpg.rf.VfvgxD3qFJGhydvR6BtP.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\486_png_jpg.rf.VfvgxD3qFJGhydvR6BtP.jpg
+------------------------------------------------------------
+[312] Distance: 4
+IMAGE 1: 484_png_jpg.rf.9QeyXk8rzTnPM3H7jUAp.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\484_png_jpg.rf.9QeyXk8rzTnPM3H7jUAp.jpg
+IMAGE 2: 485_png_jpg.rf.WWPHEdOcxZzb9i3LMx8W.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\485_png_jpg.rf.WWPHEdOcxZzb9i3LMx8W.jpg
+------------------------------------------------------------
+[313] Distance: 4
+IMAGE 1: 484_png_jpg.rf.9QeyXk8rzTnPM3H7jUAp.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\484_png_jpg.rf.9QeyXk8rzTnPM3H7jUAp.jpg
+IMAGE 2: 486_png_jpg.rf.VfvgxD3qFJGhydvR6BtP.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\486_png_jpg.rf.VfvgxD3qFJGhydvR6BtP.jpg
+------------------------------------------------------------
+[314] Distance: 4
+IMAGE 1: 485_png_jpg.rf.WWPHEdOcxZzb9i3LMx8W.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\485_png_jpg.rf.WWPHEdOcxZzb9i3LMx8W.jpg
+IMAGE 2: 487_png_jpg.rf.lCB1bFZToBhLZJlP4EMu.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\487_png_jpg.rf.lCB1bFZToBhLZJlP4EMu.jpg
+------------------------------------------------------------
+[315] Distance: 4
+IMAGE 1: 485_png_jpg.rf.WWPHEdOcxZzb9i3LMx8W.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\485_png_jpg.rf.WWPHEdOcxZzb9i3LMx8W.jpg
+IMAGE 2: 488_png_jpg.rf.4DppcZITvizUcluKdL8g.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\488_png_jpg.rf.4DppcZITvizUcluKdL8g.jpg
+------------------------------------------------------------
+[316] Distance: 4
+IMAGE 1: 486_png_jpg.rf.VfvgxD3qFJGhydvR6BtP.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\486_png_jpg.rf.VfvgxD3qFJGhydvR6BtP.jpg
+IMAGE 2: 487_png_jpg.rf.lCB1bFZToBhLZJlP4EMu.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\487_png_jpg.rf.lCB1bFZToBhLZJlP4EMu.jpg
+------------------------------------------------------------
+[317] Distance: 4
+IMAGE 1: 488_png_jpg.rf.4DppcZITvizUcluKdL8g.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\488_png_jpg.rf.4DppcZITvizUcluKdL8g.jpg
+IMAGE 2: 490_png_jpg.rf.ZxlO6zLxCl8rp4RGJQ7x.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\490_png_jpg.rf.ZxlO6zLxCl8rp4RGJQ7x.jpg
+------------------------------------------------------------
+[318] Distance: 4
+IMAGE 1: 491_png_jpg.rf.bPKIhvr7Cy2WiaJz3GGH.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\491_png_jpg.rf.bPKIhvr7Cy2WiaJz3GGH.jpg
+IMAGE 2: 492_png_jpg.rf.FsrAiwGY01XnPeM5IV9g.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\492_png_jpg.rf.FsrAiwGY01XnPeM5IV9g.jpg
+------------------------------------------------------------
+[319] Distance: 4
+IMAGE 1: 496_png_jpg.rf.hh3sE8wxsYVP3B8vYSRF.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\496_png_jpg.rf.hh3sE8wxsYVP3B8vYSRF.jpg
+IMAGE 2: image837.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image837.jpg
+------------------------------------------------------------
+[320] Distance: 4
+IMAGE 1: 497_png_jpg.rf.G399s1OAftMaFY0pqB8U.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\497_png_jpg.rf.G399s1OAftMaFY0pqB8U.jpg
+IMAGE 2: 499_png_jpg.rf.pJgJny0TJ2llEzZecVPS.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\499_png_jpg.rf.pJgJny0TJ2llEzZecVPS.jpg
+------------------------------------------------------------
+[321] Distance: 4
+IMAGE 1: 498_png_jpg.rf.4lmvU2ND8REUaz10O7W8.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\498_png_jpg.rf.4lmvU2ND8REUaz10O7W8.jpg
+IMAGE 2: 499_png_jpg.rf.pJgJny0TJ2llEzZecVPS.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\499_png_jpg.rf.pJgJny0TJ2llEzZecVPS.jpg
+------------------------------------------------------------
+[322] Distance: 4
+IMAGE 1: 499_png_jpg.rf.pJgJny0TJ2llEzZecVPS.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\499_png_jpg.rf.pJgJny0TJ2llEzZecVPS.jpg
+IMAGE 2: 500_png_jpg.rf.9TaC1Z5ozG8yOnVkCNlr.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\500_png_jpg.rf.9TaC1Z5ozG8yOnVkCNlr.jpg
+------------------------------------------------------------
+[323] Distance: 4
+IMAGE 1: 499_png_jpg.rf.pJgJny0TJ2llEzZecVPS.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\499_png_jpg.rf.pJgJny0TJ2llEzZecVPS.jpg
+IMAGE 2: 501_png_jpg.rf.eNBnpTcViFsi2CmsY4DZ.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\501_png_jpg.rf.eNBnpTcViFsi2CmsY4DZ.jpg
+------------------------------------------------------------
+[324] Distance: 4
+IMAGE 1: 503_png_jpg.rf.dRwyxH4vGnXtCci8lRNx.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\503_png_jpg.rf.dRwyxH4vGnXtCci8lRNx.jpg
+IMAGE 2: 505_png_jpg.rf.eoH3Hdzv2QQ8bwrlH9gx.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\505_png_jpg.rf.eoH3Hdzv2QQ8bwrlH9gx.jpg
+------------------------------------------------------------
+[325] Distance: 4
+IMAGE 1: 504_png_jpg.rf.q7klkllRFWYQSPH2skVJ.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\504_png_jpg.rf.q7klkllRFWYQSPH2skVJ.jpg
+IMAGE 2: 505_png_jpg.rf.eoH3Hdzv2QQ8bwrlH9gx.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\505_png_jpg.rf.eoH3Hdzv2QQ8bwrlH9gx.jpg
+------------------------------------------------------------
+[326] Distance: 4
+IMAGE 1: 508_png_jpg.rf.Zr7tWBllQiBbTqf3RueY.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\508_png_jpg.rf.Zr7tWBllQiBbTqf3RueY.jpg
+IMAGE 2: 509_png_jpg.rf.lH3p4lE9FVOw2wfPTUwP.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\509_png_jpg.rf.lH3p4lE9FVOw2wfPTUwP.jpg
+------------------------------------------------------------
+[327] Distance: 4
+IMAGE 1: 518_png_jpg.rf.j6JoC6MoI94OUhB0K9hk.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\518_png_jpg.rf.j6JoC6MoI94OUhB0K9hk.jpg
+IMAGE 2: 519_png_jpg.rf.5zvrRsS1jiHlN0WyejgH.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\519_png_jpg.rf.5zvrRsS1jiHlN0WyejgH.jpg
+------------------------------------------------------------
+[328] Distance: 4
+IMAGE 1: 531_png_jpg.rf.nKNF3vP0Tb1y5IKFoInM.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\531_png_jpg.rf.nKNF3vP0Tb1y5IKFoInM.jpg
+IMAGE 2: image1070.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1070.jpg
+------------------------------------------------------------
+[329] Distance: 4
+IMAGE 1: 736_png_jpg.rf.r0i3qMzBUQhTQRhRRCYZ.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\736_png_jpg.rf.r0i3qMzBUQhTQRhRRCYZ.jpg
+IMAGE 2: image130.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image130.jpg
+------------------------------------------------------------
+[330] Distance: 4
+IMAGE 1: 736_png_jpg.rf.r0i3qMzBUQhTQRhRRCYZ.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\736_png_jpg.rf.r0i3qMzBUQhTQRhRRCYZ.jpg
+IMAGE 2: image1375.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1375.jpg
+------------------------------------------------------------
+[331] Distance: 4
+IMAGE 1: close-up-big-pothole-with-dirty-rain-water-road_127089-4714_jpg.rf.JASEDIRH99vQHCFhMs3b.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\close-up-big-pothole-with-dirty-rain-water-road_127089-4714_jpg.rf.JASEDIRH99vQHCFhMs3b.jpg
+IMAGE 2: images17_jpg.rf.dzxleFPmcqEdgfOyX4iE.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images17_jpg.rf.dzxleFPmcqEdgfOyX4iE.jpg
+------------------------------------------------------------
+[332] Distance: 4
+IMAGE 1: image1006.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1006.jpg
+IMAGE 2: image1128.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1128.jpg
+------------------------------------------------------------
+[333] Distance: 4
+IMAGE 1: image1006.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1006.jpg
+IMAGE 2: image425.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image425.jpg
+------------------------------------------------------------
+[334] Distance: 4
+IMAGE 1: image1064.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1064.jpg
+IMAGE 2: image250.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image250.jpg
+------------------------------------------------------------
+[335] Distance: 4
+IMAGE 1: image1069.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1069.jpg
+IMAGE 2: image715.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image715.jpg
+------------------------------------------------------------
+[336] Distance: 4
+IMAGE 1: image1133.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1133.jpg
+IMAGE 2: image675.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image675.jpg
+------------------------------------------------------------
+[337] Distance: 4
+IMAGE 1: image1161.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1161.jpg
+IMAGE 2: images49_jpg.rf.6a2F6u0mZtlicayR5QVx.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images49_jpg.rf.6a2F6u0mZtlicayR5QVx.jpg
+------------------------------------------------------------
+[338] Distance: 4
+IMAGE 1: image1188.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1188.jpg
+IMAGE 2: image149.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image149.jpg
+------------------------------------------------------------
+[339] Distance: 4
+IMAGE 1: image1189.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1189.jpg
+IMAGE 2: image1348.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1348.jpg
+------------------------------------------------------------
+[340] Distance: 4
+IMAGE 1: image1258.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1258.jpg
+IMAGE 2: image1487.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1487.jpg
+------------------------------------------------------------
+[341] Distance: 4
+IMAGE 1: image1281.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1281.jpg
+IMAGE 2: image293.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image293.jpg
+------------------------------------------------------------
+[342] Distance: 4
+IMAGE 1: image1281.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1281.jpg
+IMAGE 2: image837.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image837.jpg
+------------------------------------------------------------
+[343] Distance: 4
+IMAGE 1: image131.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image131.jpg
+IMAGE 2: image1555.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1555.jpg
+------------------------------------------------------------
+[344] Distance: 4
+IMAGE 1: image1314.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1314.jpg
+IMAGE 2: image1487.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1487.jpg
+------------------------------------------------------------
+[345] Distance: 4
+IMAGE 1: image1356.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1356.jpg
+IMAGE 2: image290.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image290.jpg
+------------------------------------------------------------
+[346] Distance: 4
+IMAGE 1: image1356.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1356.jpg
+IMAGE 2: image847.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image847.jpg
+------------------------------------------------------------
+[347] Distance: 4
+IMAGE 1: image140.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image140.jpg
+IMAGE 2: image711.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image711.jpg
+------------------------------------------------------------
+[348] Distance: 4
+IMAGE 1: image1412.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1412.jpg
+IMAGE 2: large-deep-pothole-an-example-of-poor-road-maintenance-due-to-reducing-D8PATT_jpg.rf.URIt7vzYBkNfcYSOK6vp.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\large-deep-pothole-an-example-of-poor-road-maintenance-due-to-reducing-D8PATT_jpg.rf.URIt7vzYBkNfcYSOK6vp.jpg
+------------------------------------------------------------
+[349] Distance: 4
+IMAGE 1: image1431.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1431.jpg
+IMAGE 2: image342.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image342.jpg
+------------------------------------------------------------
+[350] Distance: 4
+IMAGE 1: image1459.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1459.jpg
+IMAGE 2: image780.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image780.jpg
+------------------------------------------------------------
+[351] Distance: 4
+IMAGE 1: image1484.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1484.jpg
+IMAGE 2: image495.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image495.jpg
+------------------------------------------------------------
+[352] Distance: 4
+IMAGE 1: image1487.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1487.jpg
+IMAGE 2: image595.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image595.jpg
+------------------------------------------------------------
+[353] Distance: 4
+IMAGE 1: image1493.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image1493.jpg
+IMAGE 2: image459.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image459.jpg
+------------------------------------------------------------
+[354] Distance: 4
+IMAGE 1: image179.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image179.jpg
+IMAGE 2: image847.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image847.jpg
+------------------------------------------------------------
+[355] Distance: 4
+IMAGE 1: image208.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image208.jpg
+IMAGE 2: image425.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image425.jpg
+------------------------------------------------------------
+[356] Distance: 4
+IMAGE 1: image224.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image224.jpg
+IMAGE 2: image595.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image595.jpg
+------------------------------------------------------------
+[357] Distance: 4
+IMAGE 1: image290.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image290.jpg
+IMAGE 2: image501.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image501.jpg
+------------------------------------------------------------
+[358] Distance: 4
+IMAGE 1: image293.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image293.jpg
+IMAGE 2: image837.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image837.jpg
+------------------------------------------------------------
+[359] Distance: 4
+IMAGE 1: image31_jpeg_jpg.rf.AaxjBLtaH9HFoHBM2Td3.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image31_jpeg_jpg.rf.AaxjBLtaH9HFoHBM2Td3.jpg
+IMAGE 2: image31_jpeg_jpg.rf.bwWRtxKTEqf1A8r6jFxX.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image31_jpeg_jpg.rf.bwWRtxKTEqf1A8r6jFxX.jpg
+------------------------------------------------------------
+[360] Distance: 4
+IMAGE 1: image425.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image425.jpg
+IMAGE 2: image794.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image794.jpg
+------------------------------------------------------------
+[361] Distance: 4
+IMAGE 1: image483.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image483.jpg
+IMAGE 2: img-505_jpg.rf.VKqxkr5M5dyV172L76gh.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-505_jpg.rf.VKqxkr5M5dyV172L76gh.jpg
+------------------------------------------------------------
+[362] Distance: 4
+IMAGE 1: image562.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image562.jpg
+IMAGE 2: img-513_jpg.rf.5QtMrndyhcJTwknS3OPE.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-513_jpg.rf.5QtMrndyhcJTwknS3OPE.jpg
+------------------------------------------------------------
+[363] Distance: 4
+IMAGE 1: image569.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\image569.jpg
+IMAGE 2: img-386_jpg.rf.lkjCZsQ3uQjSm0cYttuS.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-386_jpg.rf.lkjCZsQ3uQjSm0cYttuS.jpg
+------------------------------------------------------------
+[364] Distance: 4
+IMAGE 1: images295_jpg.rf.VV6EKuxSSUuYQBOVE8Ht.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\images295_jpg.rf.VV6EKuxSSUuYQBOVE8Ht.jpg
+IMAGE 2: img-378_jpg.rf.mjLn9ktQ68ZZ49Mcrn74.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-378_jpg.rf.mjLn9ktQ68ZZ49Mcrn74.jpg
+------------------------------------------------------------
+[365] Distance: 4
+IMAGE 1: img-549_jpg.rf.nb2dCNHGIev7JUpzIwOf.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img-549_jpg.rf.nb2dCNHGIev7JUpzIwOf.jpg
+IMAGE 2: img_1787_jpg.rf.X8Vi6n49f8ePlPemEJ4T.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\img_1787_jpg.rf.X8Vi6n49f8ePlPemEJ4T.jpg
+------------------------------------------------------------
+[366] Distance: 4
+IMAGE 1: youtube-7_jpg.rf.8AuXPESS61oDiSZWBH0h.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\youtube-7_jpg.rf.8AuXPESS61oDiSZWBH0h.jpg
+IMAGE 2: youtube-7_jpg.rf.WesVMCwOQjHN15udcUxu.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\youtube-7_jpg.rf.WesVMCwOQjHN15udcUxu.jpg
+------------------------------------------------------------
+[367] Distance: 4
+IMAGE 1: youtube-82_jpg.rf.i3ZBc0Ro7oiucdjOOpOR.jpg
+PATH 1 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\youtube-82_jpg.rf.i3ZBc0Ro7oiucdjOOpOR.jpg
+IMAGE 2: youtube-82_jpg.rf.JNX5WjADFvSUVsYS4SoV.jpg
+PATH 2 : C:\Users\almad\OneDrive\Desktop\Thesis\Final Version\FINAL Dataset\train\images\youtube-82_jpg.rf.JNX5WjADFvSUVsYS4SoV.jpg
+------------------------------------------------------------
+
+============================================================
+VALID ↔ VALID DUPLICATES
+============================================================
+
+No potential VALID duplicates found.
+
+============================================================
+TRAIN ↔ VALID DUPLICATES
+============================================================
+
+No potential TRAIN ↔ VALID duplicates found.
+
+======================================================================
+END OF REPORT
+======================================================================
